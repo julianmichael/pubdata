@@ -1,0 +1,195 @@
+- key: pyatkin-etal-2021-asking
+  venue: EMNLP 2021
+  links:
+    s2: "https://api.semanticscholar.org/CorpusID:237485410"
+    pdf: "https://aclanthology.org/2021.emnlp-main.108.pdf"
+    code: "https://github.com/ValentinaPy/RoleQGeneration"
+
+- key: michael-zettlemoyer-2021-inducing
+  venue: Findings of ACL 2021
+  links:
+    s2: "https://www.semanticscholar.org/paper/Inducing-Semantic-Roles-Without-Syntax-Michael-Zettlemoyer/cdf4a757298add156fc181c4b1c649f8bb75f80c"
+    pdf: "https://aclanthology.org/2021.findings-acl.389.pdf"
+    code: "https://github.com/julianmichael/qasrl-roles"
+
+- key: paranjape-etal-2021-prompting
+  venue: Findings of ACL 2021
+  links:
+    s2: "https://www.semanticscholar.org/paper/Prompting-Contrastive-Explanations-for-Commonsense-Paranjape-Michael/7747ecbc26b1688e6cad1a6ce83914efa2a3c04c"
+    pdf: "https://aclanthology.org/2021.findings-acl.366.pdf"
+    code: "https://github.com/bhargaviparanjape/RAG-X"
+
+- key: klein-etal-2020-qanom
+  venue: COLING 2020
+  links:
+    s2: "https://www.semanticscholar.org/paper/184505d9f98e7ebc37e21e9447c8224249ec5a46"
+    pdf: "https://www.aclweb.org/anthology/2020.coling-main.274.pdf"
+    code: "https://github.com/kleinay/QANom"
+    poster: "http://qasrl.org/pubs/qanom-coling2020-poster.pdf"
+    data: "https://github.com/kleinay/QANom"
+
+- key: pyatkin-etal-2020-qadiscourse
+  venue: EMNLP 2020
+  links:
+    s2: "https://www.semanticscholar.org/paper/d30f9005f64056353a4669da2f41a0c3927f6b99"
+    pdf: "https://www.aclweb.org/anthology/2020.emnlp-main.224.pdf"
+    code: "https://github.com/ValentinaPy/QADiscourse"
+    data: "https://github.com/ValentinaPy/QADiscourse"
+
+- key: michael-etal-2020-asking
+  venue: EMNLP 2020
+  links:
+    s2: "https://www.semanticscholar.org/paper/f33a648a69d1136bfc0f42b95e3466126eafb4ce"
+    pdf: "https://www.aclweb.org/anthology/2020.emnlp-main.552.pdf"
+  alts:
+    - description: ArXiv preprint (Apr 2020)
+      url: "https://arxiv.org/abs/2004.14513"
+      links:
+        pdf: "https://arxiv.org/pdf/2004.14513.pdf"
+
+- key: roit-etal-2020-controlled
+  venue: ACL 2020
+  links:
+    s2: "https://www.semanticscholar.org/paper/00c61e601a9312e06a0be7cd15696c0f34658fa3"
+    pdf: "https://www.aclweb.org/anthology/2020.acl-main.626.pdf"
+    code: "https://github.com/plroit/qasrl-gs"
+    data: "https://github.com/plroit/qasrl-gs"
+  alts:
+    - description: ArXiv preprint (Nov 2019)
+      url: "https://arxiv.org/abs/1911.03243"
+      links:
+        pdf: "https://arxiv.org/pdf/1911.03243.pdf"
+
+- key: min-etal-2020-ambigqa
+  venue: EMNLP 2020
+  links:
+    website: "https://nlp.cs.washington.edu/ambigqa/"
+    s2: "https://www.semanticscholar.org/paper/32151ca81fa9e943ebe3028c5c2a7e76434da1bc"
+    pdf: "https://www.aclweb.org/anthology/2020.emnlp-main.466.pdf"
+    code: "https://github.com/shmsw25/AmbigQA"
+    data: "https://nlp.cs.washington.edu/ambigqa/"
+  alts:
+    - description: ArXiv preprint (Apr 2020)
+      url: "https://arxiv.org/abs/2004.10645"
+      links:
+        pdf: "https://arxiv.org/pdf/2004.10645.pdf"
+
+- key: wang-etal-2019-superglue
+  venue: NeurIPS 2019
+  links:
+    website: "https://super.gluebenchmark.com"
+    s2: "https://www.semanticscholar.org/paper/d9f6ada77448664b71128bb19df15765336974a6"
+    pdf: "https://papers.nips.cc/paper/8589-superglue-a-stickier-benchmark-for-general-purpose-language-understanding-systems.pdf"
+    # pdf: "https://arxiv.org/pdf/1905.00537.pdf"
+    code: "https://jiant.info/"
+
+- key: wang-etal-2019-glue
+  venue: ICLR 2019
+  links:
+    website: "https://gluebenchmark.com"
+    s2: "https://www.semanticscholar.org/paper/93b8da28d006415866bf48f9a6e06b5242129195"
+    pdf: "https://openreview.net/pdf?id=rJ4km2R5t7"
+    code: "https://github.com/nyu-mll/GLUE-baselines"
+  alts:
+    - description: ArXiv version (Apr 2018)
+      url: "https://www.nyu.edu/projects/bowman/glue.pdf"
+      links:
+        pdf: "https://www.nyu.edu/projects/bowman/glue.pdf"
+
+- key: fitzgerald-etal-2018-large
+  venue: ACL 2018
+  accolades: Honorable Mention
+  links:
+    website: "http://qasrl.org"
+    s2: "https://www.semanticscholar.org/paper/Large-Scale-QA-SRL-Parsing-FitzGerald-Michael/7b199756fee917accf5e9223c3282239ee2fbc89"
+    pdf: "https://arxiv.org/pdf/1805.05377.pdf"
+    code: "https://github.com/nafitzgerald/nrl-qasrl"
+    data: "https://github.com/uwnlp/qasrl-bank"
+
+- key: michael-etal-2018-crowdsourcing
+  venue: NAACL 2018
+  links:
+    s2: "https://www.semanticscholar.org/paper/Crowdsourcing-Question-Answer-Meaning-Michael-Stanovsky/a1eca4322717e642a28c1d3d20798129a7018d4b"
+    pdf: "http://aclweb.org/anthology/N18-2089"
+    poster: "http://julianmichael.org/papers/michael18qamr-poster.pdf"
+    code: "https://github.com/uwnlp/qamr/"
+    data: "https://github.com/uwnlp/qamr/tree/master/data"
+  alts:
+    - description: ArXiv long version (Nov 2017)
+      url: "https://arxiv.org/abs/1711.05885"
+      links:
+        pdf: "https://arxiv.org/pdf/1711.05885.pdf"
+
+- key: stanovsky-etal-2018-supervised
+  venue: NAACL 2018
+  links:
+    s2: "https://www.semanticscholar.org/paper/Supervised-Open-Information-Extraction-Stanovsky-Michael/c82921a426fd8090564f459b0bd90cdb1e7a9e2d"
+    pdf: "http://aclweb.org/anthology/N18-1081"
+    poster: "https://gabrielstanovsky.github.io/assets/papers/naacl18long/poster.pdf"
+    code: "https://github.com/gabrielStanovsky/supervised-oie"
+    
+- key: stanovsky-dagan-2016-creating
+  venue: EMNLP 2016
+  links:
+    s2: "https://www.semanticscholar.org/paper/Creating-a-Large-Benchmark-for-Open-Information-Stanovsky-Dagan/a32d7aba28ce9f130934b8e892df5bf2cad97e21"
+    pdf: "https://gabrielstanovsky.github.io/assets/papers/emnlp16a/paper.pdf"
+    slides: "https://gabrielstanovsky.github.io/assets/papers/emnlp16a/slides.pdf"
+    talk: "http://techtalks.tv/talks/creating-a-large-benchmark-for-open-information-extraction/63358/"
+    code: "https://github.com/gabrielStanovsky/oie-benchmark"
+
+- key: stanovsky-dagan-2016-annotating
+  venue: ACL 2016
+  links:
+    s2: "https://www.semanticscholar.org/paper/Annotating-and-Predicting-Non-Restrictive-Noun-Stanovsky-Dagan/d1e86d2175a83d23b70532b846727f8c69edda82"
+    pdf: "https://gabrielstanovsky.github.io/assets/papers/acl16a/paper.pdf"
+    code: "https://github.com/gabrielStanovsky/Annotating-Non-Restrictive"
+    poster: "https://gabrielstanovsky.github.io/assets/papers/acl16a/poster.pdf"
+
+- key: stanovsky-etal-2016-specifying
+  venue: ACL 2016
+  links:
+    s2: "https://www.semanticscholar.org/paper/Specifying-and-Annotating-Reduced-Argument-Span-Via-Stanovsky-Dagan/bcc87681c8898bc631502509bef63d62ce0f86fa"
+    pdf: "https://gabrielstanovsky.github.io/assets/papers/acl16b/paper.pdf"
+    talk: "http://techtalks.tv/talks/specifying-and-annotating-reduced-argument-span-via-qa-srl/63234/"
+    slides: "https://gabrielstanovsky.github.io/assets/papers/acl16b/slides.pdf"
+
+- key: he-etal-2016-human
+  venue: EMNLP 2016
+  links:
+    s2: "https://www.semanticscholar.org/paper/Human-in-the-Loop-Parsing-He-Michael/70be8b0ede8b8b8f47b6f2bf8db7a5eb34529eee"
+    pdf: "https://pdfs.semanticscholar.org/e04b/8b0916c52e2e99ce73d669fefdddd40441ef.pdf?_ga=2.229921244.1712293810.1522631864-1305582162.1519106099"
+    code: "https://github.com/uwnlp/hitl_parsing"
+    slides: "https://pdfs.semanticscholar.org/presentation/70be/8b0ede8b8b8f47b6f2bf8db7a5eb34529eee.pdf?_ga=2.200596718.1712293810.1522631864-1305582162.1519106099"
+
+- key: harrison-etal-2016-proving
+  venue: "TPLP Vl. 16, 5–6; Presented at ICLP 2016"
+  links:
+    s2: "https://www.semanticscholar.org/paper/Proving-infinitary-formulas-Harrison-Lifschitz/0a7f13f55311ac1e706aae6e8f9070749b4378da"
+    pdf: "http://www.cs.utexas.edu/users/vl/papers/fpfif.pdf"
+  alts:
+    - key: harrison-etal-2016-finite
+      description: ASPOCP version (Aug 2015)
+      url: "https://www.semanticscholar.org/paper/Finite-Proofs-for-Infinitary-Formulas-Harrison/fa448c32d69ae3ef8166097f01fdea50ef667146"
+      links:
+        s2: "https://www.semanticscholar.org/paper/Finite-Proofs-for-Infinitary-Formulas-Harrison/fa448c32d69ae3ef8166097f01fdea50ef667146"
+        pdf: "https://pdfs.semanticscholar.org/fa44/8c32d69ae3ef8166097f01fdea50ef667146.pdf?_ga=2.205944915.1712293810.1522631864-1305582162.1519106099"
+
+- key: michael-2015-theory
+  venue: Undergraduate Honors Thesis, UT Austin, 2015
+  links:
+    s2: "https://www.semanticscholar.org/paper/The-Theory-of-Correlation-Formulas-and-Their-to-Michael/a54eaafe60c3309169a976df7e204c5b066798c7"
+    pdf: "https://pdfs.semanticscholar.org/a54e/aafe60c3309169a976df7e204c5b066798c7.pdf?_ga=2.96965855.1712293810.1522631864-1305582162.1519106099"
+
+- key: bailey-etal-2015-winograd
+  venue: Commonsense 2015
+  links:
+    s2: "https://www.semanticscholar.org/paper/The-Winograd-Schema-Challenge-and-Reasoning-about-Bailey-Harrison/6af32c1ce2932ade19f7f814f70f46ddaefd7899"
+    pdf: "https://repositories.lib.utexas.edu/bitstream/handle/2152/29979/Julian_Michael_thesis.pdf?sequence=2&isAllowed=y"
+
+- key: he-etal-2015-question
+  venue: EMNLP 2015
+  links:
+    s2: "https://www.semanticscholar.org/paper/Question-Answer-Driven-Semantic-Role-Labeling%3A-to-He-Lewis/4c3c1c5f475944a60d7873996b786ab30fccede0"
+    pdf: "https://dada.cs.washington.edu/qasrl/docs/emnlp2015_hlz.pdf"
+    code: "https://github.com/luheng/qasrl_annotation"
+    data: "https://dada.cs.washington.edu/qasrl/#dataset"

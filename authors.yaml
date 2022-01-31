@@ -1,0 +1,114 @@
+- name: Julian Michael
+  url: https://julianmichael.org
+  email: julianjohnmichael@gmail.com
+  twitter: _julianmichael_
+  headshot: /assets/images/julian-headshot.jpg
+  editor: true
+
+- name: Luheng He
+  url: http://homes.cs.washington.edu/~luheng
+  headshot: /assets/images/luheng-headshot.jpg
+
+- name: Nicholas FitzGerald
+  url: http://nfitz.net
+  headshot: /assets/images/nicholas-headshot.jpg
+
+- name: Gabriel Stanovsky
+  url: https://gabrielstanovsky.github.io/index.html
+  headshot: /assets/images/gabi-headshot.jpg
+  nickname: Gabi
+
+- name: Ido Dagan
+  url: http://u.cs.biu.ac.il/~dagan/
+  headshot: /assets/images/ido-headshot.jpg
+
+- name: Luke Zettlemoyer
+  url: https://www.cs.washington.edu/people/faculty/lsz
+  headshot: images/luke-headshot.jpg
+
+- name: Ayal Klein
+  url: https://www.linkedin.com/in/ayal-klein-33298a61
+  headshot: /assets/images/ayal-headshot.jpg
+
+- name: Omer Levy
+  url: https://levyomer.wordpress.com/
+  headshot: /assets/images/omer-headshot.jpg
+
+- name: Mike Lewis
+  url: https://research.fb.com/people/lewis-mike/
+
+- name: Amelia Harrison
+  url: http://www.cs.utexas.edu/~ameliaj/
+
+- name: Vladimir Lifschitz
+  url: https://www.cs.utexas.edu/~vl/
+
+- name: Alex Wang
+  url: https://w4ngatang.github.io/
+
+- name: Amanpreet Singh
+  url: https://apsdehal.in/
+
+- name: Samuel R. Bowman
+  url: https://www.nyu.edu/projects/bowman/
+  nickname: Sam
+
+- name: Felix Hill
+  url: https://fh295.github.io/
+
+- name: Daniel Bailey
+
+- name: Yuliya Lierler
+  url: http://faculty.ist.unomaha.edu/ylierler/
+
+- name: Meni Adler
+
+- name: Yada Pruksachatkun
+  url: https://pruksmhc.github.io/
+
+- name: Nikita Nangia
+  url: https://woollysocks.github.io/
+
+- name: Sewon Min
+  url: https://shmsw25.github.io/
+
+- name: Hannaneh Hajishirzi
+  url: https://homes.cs.washington.edu/~hannaneh/
+
+- name: Paul Roit
+  url: https://il.linkedin.com/in/paulroit
+  headshot: /assets/images/paul-headshot.jpg
+
+- name: Daniela Stepanov
+  url: https://il.linkedin.com/in/daniela-stepanov-33a76580
+
+- name: Jonathan Mamou
+  url: https://scholar.google.com/citations?user=96pR-j0AAAAJ
+
+- name: Jan A. Botha
+  url: https://research.google/people/JanBotha/
+
+- name: Ian Tenney
+  url: https://research.google/people/IanTenney/
+
+- name: Valentina Pyatkin
+  url: https://valentinapy.github.io/
+  headshot: /assets/images/valentina-headshot.png
+
+- name: Reut Tsarfaty
+  url: https://scholar.google.com/citations?user=0Eome9MAAAAJ
+
+- name: Hangfeng He
+  url: https://hornhehhf.github.io/hangfenghe/
+
+- name: Dan Roth
+  url: https://www.cis.upenn.edu/~danroth/
+
+- name: Bhargavi Paranjape
+  url: https://bhargaviparanjape.github.io
+
+- name: Marjan Ghazvininejad
+  url: https://scholar.google.com/citations?user=IRTtnAIAAAAJ
+
+- name: Yoav Goldberg
+  url: https://u.cs.biu.ac.il/~yogo/
