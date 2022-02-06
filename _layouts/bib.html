@@ -1,0 +1,38 @@
+---
+---
+
+{% assign metadata = site.data.pubdata.pubs | where: "key", entry.key | first %}
+<div id="{{ entry.key }}" class="pub">
+<!-- title -->
+    {% if entry.url %}<a href="{{ entry.url }}" class="pubtitle">{{ entry.title }}</a>{% else %}<span class="pubtitle">{{ entry.title }}</span>{% endif %}
+<br />
+<!-- authors -->
+<span class="pubauthors">
+{% for author in entry.author_array %}
+  {% assign second_to_last = forloop.length | minus: 1 %}
+  {% assign author_name = author.first | append: " " | append: author.last %}
+  {% assign cur_author = site.data.pubdata.authors | where: "name", author_name | first %}
+    {% if cur_author and cur_author.url %}<a class="pubauthor" href="{{ cur_author.url }}">{{ cur_author.name }}</a>{% else %}<span class="pubauthor">{{ cur_author.name }}</span>{% endif %}{% if forloop.last %}{% elsif forloop.index == second_to_last %} and {% else %},{% endif %}
+{% endfor %}
+</span>
+<br />
+<!-- venue: usually we want to override this for a shorter name -->
+<span class="pubvenue">
+{% if metadata.venue %}{{ metadata.venue }}
+{% else %}{{ entry.booktitle }}
+{% endif %}
+</span>
+{% if metadata.accolades %}
+<span class="pubaccolades">({{ metadata.accolades }}) </span>
+{% endif %}
+<br />
+<!-- links -->
+<span class="publinks">
+{% for link in metadata.links %}
+    <a class="publink publink-{{ link[0] }}" href="{{ link[1] }}">{{ link[0] }}</a>
+{% endfor %}
+<!-- bibtex -->
+{% assign bib_id = entry.key | append: "-bib" %}
+    <a class="bib publink publink-bib" id="{{ bib_id }}" href="#" onclick="showCopied(&quot;#{{ bib_id }}&quot;); return false;" data-clipboard-text="{{ entry.bibtex }}">bib</a>
+</span>
+</div>

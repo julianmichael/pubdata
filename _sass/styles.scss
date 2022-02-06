@@ -1,0 +1,134 @@
+ol.bibliography {
+    list-style-type: none;
+}
+
+.pub {
+    margin: 1rem 0;
+}
+
+.pubtitle {
+    // font-size: 14pt;
+}
+
+.pubauthors {
+
+}
+
+.pubauthor {
+    color: $text-color;
+    &:visited {
+        color: $text-color;
+    }
+}
+
+.pubvenue {
+    font-style: italic;
+}
+
+.pubaccolades {
+    font-weight: bold;
+}
+
+$badge-font-weight: bold;
+$badge-line-height: 1em;
+$badge-border-radius: 4px;
+
+$badge-link-hover-color: white;
+$badge-color: white;
+$badge-bg: $link-base-color;
+
+
+// taken from bootstrap .badge 
+// https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_badges.scss
+.publink {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: smaller;
+  font-weight: $badge-font-weight;
+  line-height: $badge-line-height;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: $badge-bg;
+  border-radius: $badge-border-radius;
+
+  color: $badge-color;
+  font-family: sans-serif;
+  // text-transform: uppercase;
+
+  // Empty badges collapse automatically (not available in IE8)
+  &:empty {
+    display: none;
+  }
+
+  // Quick fix for badges in buttons
+  .btn & {
+    position: relative;
+    top: -1px;
+  }
+
+  .btn-xs &,
+  .btn-group-xs > .btn & {
+    top: 0;
+    padding: 1px 5px;
+  }
+
+  // [converter] extracted a& to a.badge
+
+  // Account for badges in navs
+  // .list-group-item.active > &,
+  // .nav-pills > .active > a > & {
+  //   color: $badge-active-color;
+  //   background-color: $badge-active-bg;
+  // }
+
+  .list-group-item > & {
+    float: right;
+  }
+
+  .list-group-item > & + & {
+    margin-right: 5px;
+  }
+
+  .nav-pills > li > a > & {
+    margin-left: 3px;
+  }
+}
+
+// Hover state, but only for links
+a.publink {
+    &:visited {
+        color: $badge-color;
+    }
+    &:hover,
+    &:focus {
+        color: $badge-link-hover-color;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.publink-s2 {
+    background-color: #292b2c
+}
+
+.publink-pdf, .publink-poster {
+    background-color: #5cb85c
+}
+
+.publink-code {
+    background-color: #5bc0de
+}
+
+.publink-slides, .publink-talk {
+    background-color: #f0ad4e
+}
+
+.publink-website {
+    background-color: #d9534f
+}
+
+.publink-bib {
+    background-color: #555555
+}

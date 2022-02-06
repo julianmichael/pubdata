@@ -2,25 +2,25 @@
   url: https://julianmichael.org
   email: julianjohnmichael@gmail.com
   twitter: _julianmichael_
-  headshot: /assets/images/julian-headshot.jpg
+  headshot: /assets/pubdata/images/julian-headshot.jpg
   editor: true
 
 - name: Luheng He
   url: http://homes.cs.washington.edu/~luheng
-  headshot: /assets/images/luheng-headshot.jpg
+  headshot: /assets/pubdata/images/luheng-headshot.jpg
 
 - name: Nicholas FitzGerald
   url: http://nfitz.net
-  headshot: /assets/images/nicholas-headshot.jpg
+  headshot: /assets/pubdata/images/nicholas-headshot.jpg
 
 - name: Gabriel Stanovsky
   url: https://gabrielstanovsky.github.io/index.html
-  headshot: /assets/images/gabi-headshot.jpg
+  headshot: /assets/pubdata/images/gabi-headshot.jpg
   nickname: Gabi
 
 - name: Ido Dagan
   url: http://u.cs.biu.ac.il/~dagan/
-  headshot: /assets/images/ido-headshot.jpg
+  headshot: /assets/pubdata/images/ido-headshot.jpg
 
 - name: Luke Zettlemoyer
   url: https://www.cs.washington.edu/people/faculty/lsz
@@ -28,11 +28,11 @@
 
 - name: Ayal Klein
   url: https://www.linkedin.com/in/ayal-klein-33298a61
-  headshot: /assets/images/ayal-headshot.jpg
+  headshot: /assets/pubdata/images/ayal-headshot.jpg
 
 - name: Omer Levy
   url: https://levyomer.wordpress.com/
-  headshot: /assets/images/omer-headshot.jpg
+  headshot: /assets/pubdata/images/omer-headshot.jpg
 
 - name: Mike Lewis
   url: https://research.fb.com/people/lewis-mike/
@@ -77,7 +77,7 @@
 
 - name: Paul Roit
   url: https://il.linkedin.com/in/paulroit
-  headshot: /assets/images/paul-headshot.jpg
+  headshot: /assets/pubdata/images/paul-headshot.jpg
 
 - name: Daniela Stepanov
   url: https://il.linkedin.com/in/daniela-stepanov-33a76580
@@ -93,7 +93,7 @@
 
 - name: Valentina Pyatkin
   url: https://valentinapy.github.io/
-  headshot: /assets/images/valentina-headshot.png
+  headshot: /assets/pubdata/images/valentina-headshot.png
 
 - name: Reut Tsarfaty
   url: https://scholar.google.com/citations?user=0Eome9MAAAAJ
