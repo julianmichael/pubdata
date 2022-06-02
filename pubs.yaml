@@ -1,3 +1,12 @@
+- key: li-michael-2022-overconfidence
+  cofirst: 2
+  venue: DADC 2022
+
+- key: shi-etal-2022-nearest
+  links:
+    pdf: "https://arxiv.org/pdf/2205.13792.pdf"
+    arxiv: "https://arxiv.org/abs/2205.13792"
+
 - key: pyatkin-etal-2021-asking
   venue: EMNLP 2021
   links:
