@@ -29,6 +29,125 @@ ol.bibliography {
     font-weight: bold;
 }
 
+$venue-preprint-primary-color: #991717;
+$venue-preprint-secondary-color: darken($venue-preprint-primary-color, 15%);
+$venue-workshop-primary-color: #b06000;
+$venue-workshop-secondary-color: darken($venue-workshop-primary-color, 15%);
+$venue-conference-primary-color: $link-base-color;
+$venue-conference-secondary-color: darken($venue-conference-primary-color, 15%);
+$venue-findings-primary-color: #2727a9;
+$venue-findings-secondary-color: darken($venue-findings-primary-color, 15%);
+$venue-journal-primary-color: #076907;
+$venue-journal-secondary-color: darken($venue-journal-primary-color, 15%);
+$venue-thesis-primary-color: #888888;
+$venue-thesis-secondary-color: darken($venue-preprint-primary-color, 15%);
+
+$venue-unspecified-color: magenta;
+
+.venue- {
+  color: $venue-unspecified-color !important;
+  &:visited {
+    color: $venue-unspecified-color !important;
+  }
+}
+.venue-conference {
+  color: $venue-conference-primary-color !important;
+  &:visited {
+    color: $venue-conference-primary-color !important;
+  }
+}
+.venue-findings {
+  color: $venue-findings-primary-color !important;
+  &:visited {
+    color: $venue-findings-primary-color !important;
+  }
+}
+.venue-preprint {
+  color: $venue-preprint-primary-color !important;
+  &:visited {
+    color: $venue-preprint-primary-color !important;
+  }
+}
+.venue-workshop {
+  color: $venue-workshop-primary-color !important;
+  &:visited {
+    color: $venue-workshop-primary-color !important;
+  }
+}
+.venue-journal {
+  color: $venue-journal-primary-color !important;
+  &:visited {
+    color: $venue-journal-primary-color !important;
+  }
+}
+.venue-thesis {
+  color: $venue-thesis-primary-color !important;
+  &:visited {
+    color: $venue-thesis-primary-color !important;
+  }
+}
+
+.venue-conference-toggle {
+  color: $venue-conference-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-conference-secondary-color !important;
+  }
+}
+.venue-conference-toggle-off {
+  text-decoration: line-through;
+}
+.venue-findings-toggle {
+  color: $venue-findings-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-findings-secondary-color !important;
+  }
+}
+.venue-findings-toggle-off {
+  text-decoration: line-through;
+}
+.venue-preprint-toggle {
+  color: $venue-preprint-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-preprint-secondary-color !important;
+  }
+}
+.venue-preprint-toggle-off {
+  text-decoration: line-through;
+}
+.venue-workshop-toggle {
+  color: $venue-workshop-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-workshop-secondary-color !important;
+  }
+}
+.venue-workshop-toggle-off {
+  text-decoration: line-through;
+}
+.venue-journal-toggle {
+  color: $venue-journal-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-journal-secondary-color !important;
+  }
+}
+.venue-journal-toggle-off {
+  text-decoration: line-through;
+}
+.venue-thesis-toggle {
+  color: $venue-thesis-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-thesis-secondary-color !important;
+  }
+}
+.venue-thesis-toggle-off {
+  text-decoration: line-through;
+}
+
 $badge-font-weight: bold;
 $badge-line-height: 1em;
 $badge-border-radius: 4px;

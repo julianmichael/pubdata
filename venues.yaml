@@ -1,0 +1,69 @@
+- name: "arXiv preprint"
+  type: preprint
+
+- name: "DADC 2022"
+  url: "https://dadcworkshop.github.io"
+  proceedings: "https://aclanthology.org/volumes/2022.dadc-1/"
+  type: workshop
+
+- name: "EMNLP 2021"
+  url: "https://2021.emnlp.org"
+  proceedings: "https://aclanthology.org/volumes/2021.emnlp-main/"
+  type: conference
+
+- name: "Findings of ACL 2021"
+  url: "https://2021.aclweb.org"
+  proceedings: "https://aclanthology.org/volumes/2021.findings-acl/"
+  type: findings
+
+- name: "ACL 2020"
+  url: "https://acl2020.org"
+  proceedings: "https://aclanthology.org/volumes/2020.acl-main/"
+  type: conference
+
+- name: "EMNLP 2020"
+  url: "https://2020.emnlp.org"
+  proceedings: "https://aclanthology.org/volumes/2020.emnlp-main/"
+  type: conference
+
+- name: "COLING 2020"
+  url: "https://coling2020.org"
+  proceedings: "https://aclanthology.org/volumes/2020.coling-main/"
+  type: conference
+
+- name: "NeurIPS 2019"
+  url: "https://nips.cc/Conferences/2019"
+  proceedings: "https://proceedings.neurips.cc/paper/2019"
+  type: conference
+
+- name: "ICLR 2019"
+  url: "https://iclr.cc/Conferences/2019"
+  proceedings: "https://openreview.net/group?id=ICLR.cc/2019"
+  type: conference
+
+- name: "ACL 2018"
+  url: "https://acl2018.org"
+  proceedings: "https://aclanthology.org/events/acl-2018/"
+  type: conference
+
+- name: "NAACL 2018"
+  url: "http://naacl.org/naacl-hlt-2018/"
+  proceedings: "https://aclanthology.org/events/naacl-2018/"
+  type: conference
+
+- name: "TPLP"
+  url: "https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming"
+  type: journal
+
+- name: "EMNLP 2016"
+  url: "https://www.aclweb.org/mirror/emnlp2016/"
+  proceedings: "https://aclanthology.org/events/emnlp-2016"
+  type: conference
+
+- name: "Commonsense 2015"
+  url: "https://commonsensereasoning.org/2015/index.html"
+  proceedings: "https://aaai.org/Press/Reports/Symposia/Spring/ss-15-04.php"
+  type: workshop
+
+- name: "Undergraduate Honors Thesis, UT Austin, 2015"
+  type: thesis

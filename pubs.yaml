@@ -1,6 +1,13 @@
+- key: michael-etal-2022-what
+  venue: "arXiv preprint"
+  links:
+    website: "https://nlpsurvey.net"
+    pdf: "https://arxiv.org/pdf/2208.12852.pdf"
+    arxiv: "https://arxiv.org/abs/2208.12852"
+
 - key: li-michael-2022-overconfidence
   cofirst: 2
-  venue: DADC 2022
+  venue: "DADC 2022"
   accolades: Best Paper
   links:
     s2: "https://www.semanticscholar.org/paper/Overconfidence-in-the-Face-of-Ambiguity-with-Data-Li-Michael/b46b0e4b09d951a8c6cb7224541600b2943b32a9"
@@ -9,6 +16,7 @@
     reviews: "https://openreview.net/forum?id=p7CAg7lgd_k"
 
 - key: shi-etal-2022-nearest
+  venue: "arXiv preprint"
   links:
     pdf: "https://arxiv.org/pdf/2205.13792.pdf"
     arxiv: "https://arxiv.org/abs/2205.13792"
@@ -177,7 +185,8 @@
     slides: "https://pdfs.semanticscholar.org/presentation/70be/8b0ede8b8b8f47b6f2bf8db7a5eb34529eee.pdf?_ga=2.200596718.1712293810.1522631864-1305582162.1519106099"
 
 - key: harrison-etal-2016-proving
-  venue: "TPLP Vl. 16, 5–6; Presented at ICLP 2016"
+  venue: "TPLP"
+  venue_note: "Vol. 16, 5–6; Presented at ICLP 2016"
   links:
     s2: "https://www.semanticscholar.org/paper/Proving-infinitary-formulas-Harrison-Lifschitz/0a7f13f55311ac1e706aae6e8f9070749b4378da"
     pdf: "http://www.cs.utexas.edu/users/vl/papers/fpfif.pdf"

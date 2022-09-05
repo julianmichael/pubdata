@@ -2,9 +2,16 @@
 ---
 
 {% assign metadata = site.data.pubdata.pubs | where: "key", entry.key | first %}
-<div id="{{ entry.key }}" class="pub">
+{% if metadata.venue %}
+  {% assign venue = site.data.pubdata.venues | where: "name", metadata.venue | first %}
+  {% assign venue_type = venue.type %}
+{% else %}
+  {% assign venue = false %}
+  {% assign venue_type = "" %}
+{% endif %}
+<div id="{{ entry.key }}" class="pub pub-{{ venue_type }}">
 <!-- title -->
-    {% if entry.url %}<a href="{{ entry.url }}" class="pubtitle">{{ entry.title }}</a>{% else %}<span class="pubtitle">{{ entry.title }}</span>{% endif %}
+{% if entry.url %}<a href="{{ entry.url }}" class="pubtitle venue-{{ venue_type }}">{{ entry.title }}</a>{% else %}<span class="pubtitle">{{ entry.title }}</span>{% endif %}
 <br />
 <!-- authors -->
 <span class="pubauthors">
@@ -17,11 +24,13 @@
 </span>
 <br />
 <!-- venue: usually we want to override this for a shorter name -->
-<span class="pubvenue">
-{% if metadata.venue %}{{ metadata.venue }}
+<span class="pubvenue venue-{{ venue_type }}">
+{% if venue and venue.url %}<a class="venue-{{ venue_type }}" href="{{ venue.url }}">{{ venue.name }}</a>
+{% elsif metadata.venue %}{{ metadata.venue }}
 {% elsif entry.booktitle %}{{ entry.booktitle }}
 {% else %}{{ entry.publisher }}
 {% endif %}
+{% if metadata.venue_note %}{{ metadata.venue_note }}{% endif %}
 </span>
 {% if metadata.accolades %}
 <span class="pubaccolades">({{ metadata.accolades }}) </span>
