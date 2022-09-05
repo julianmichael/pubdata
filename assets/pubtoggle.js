@@ -7,10 +7,7 @@ $(document).ready(function() {
     "thesis": true,
     "preprint": true
   };
-  console.log(toggles);
   function toggle_type(key, new_state) {
-    console.log("toggling: " + key);
-    console.log(!toggles[key]);
     var toggle_class_name = ".venue-" + key + "-toggle";
     var pub_class_name = ".pub-" + key;
     var toggle_off_class = "venue-" + key + "-toggle-off";
@@ -32,14 +29,12 @@ $(document).ready(function() {
     });
   }
   $(".venue-all-toggle").click(function() {
-    console.log("all");
     for (const key in toggles) {
       toggle_type(key, true);
     }
     return;
   })
   $(".venue-none-toggle").click(function() {
-    console.log("none");
     for (const key in toggles) {
       toggle_type(key, false);
     }
