@@ -7,7 +7,7 @@
 
 - key: li-michael-2022-overconfidence
   cofirst: 2
-  venue: "DADC 2022"
+  venue: DADC 2022
   accolades: Best Paper
   links:
     s2: "https://www.semanticscholar.org/paper/Overconfidence-in-the-Face-of-Ambiguity-with-Data-Li-Michael/b46b0e4b09d951a8c6cb7224541600b2943b32a9"
@@ -16,7 +16,7 @@
     reviews: "https://openreview.net/forum?id=p7CAg7lgd_k"
 
 - key: shi-etal-2022-nearest
-  venue: "arXiv preprint"
+  venue: EMNLP 2022
   links:
     pdf: "https://arxiv.org/pdf/2205.13792.pdf"
     arxiv: "https://arxiv.org/abs/2205.13792"

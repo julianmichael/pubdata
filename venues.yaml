@@ -1,6 +1,11 @@
 - name: "arXiv preprint"
   type: preprint
 
+- name: "EMNLP 2022"
+  url: "https://2022.emnlp.org"
+  proceedings: "https://aclanthology.org/volumes/2022.emnlp-main/"
+  type: conference
+
 - name: "DADC 2022"
   url: "https://dadcworkshop.github.io"
   proceedings: "https://aclanthology.org/volumes/2022.dadc-1/"
