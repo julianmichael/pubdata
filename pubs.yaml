@@ -1,3 +1,11 @@
+- key: liu-etal-2023-afraid
+  venue: "arXiv preprint"
+  links:
+    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
+    code: "https://github.com/alisawuffles/ambient"
+    pdf: "https://arxiv.org/pdf/2304.14399.pdf"
+    arxiv: "https://arxiv.org/abs/2304.14399"
+
 - key: michael-etal-2022-what
   venue: "arXiv preprint"
   links:
