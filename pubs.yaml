@@ -12,6 +12,24 @@
     website: "https://nlpsurvey.net"
     pdf: "https://arxiv.org/pdf/2208.12852.pdf"
     arxiv: "https://arxiv.org/abs/2208.12852"
+    talk: "https://www.youtube.com/watch?v=Kj11oBBl9rk"
+  media:
+    - name: "AI Index (Ch. 8)"
+      url: "https://aiindex.stanford.edu/report/"
+    - name: "IFLScience"
+      url: "https://www.iflscience.com/a-third-of-ai-researchers-think-ai-could-cause-catastrophic-outcomes-on-par-with-nuclear-war-this-century-65430"
+    - name: "Tages-Anzeiger"
+      url: "https://www.tagesanzeiger.ch/kann-eine-ki-entscheidungen-treffen-die-so-katastrophal-sind-wie-ein-atomkrieg-875348104058"
+    - name: "New Scientist"
+      url: "https://www.newscientist.com/article/2338644-a-third-of-scientists-working-on-ai-say-it-could-cause-global-disaster/"
+    - name: "The Times"
+      url: "https://www.thetimes.co.uk/article/a-third-of-scientists-fear-judgment-day-from-robots-sl28j2ts2"
+    - name: "Yahoo"
+      url: "https://www.yahoo.com/now/36-scientists-afraid-robots-may-155846287.html"
+    - name: "NLP Deep Dive"
+      url: "https://www.youtube.com/watch?v=ZoOnP6H1A_o"
+    - name: "NYU CDS Blog"
+      url: "https://nyudatascience.medium.com/understanding-the-results-of-the-nlp-community-metasurvey-interview-with-cds-research-scientist-d06944bc9d54"
 
 - key: li-michael-2022-overconfidence
   cofirst: 2

@@ -45,4 +45,13 @@
 {% assign bib_id = entry.key | append: "-bib" %}
     <a class="bib publink publink-bib" id="{{ bib_id }}" href="#" onclick="showCopied(&quot;#{{ bib_id }}&quot;); return false;" data-clipboard-text="{{ entry.bibtex }}">bib</a>
 </span>
+{% if metadata.media %}
+<br />
+<span class="pubmedia">
+Media: 
+{% for media in metadata.media %}
+<a class="pubmedia-item" href="{{ media.url }}">{{ media.name }}</a>{% if forloop.index < forloop.length %}, {% endif %}
+{% endfor %}
+</span>
+{% endif %}
 </div>
