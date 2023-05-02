@@ -1,13 +1,5 @@
-- key: liu-etal-2023-afraid
-  venue: "arXiv preprint"
-  links:
-    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
-    code: "https://github.com/alisawuffles/ambient"
-    pdf: "https://arxiv.org/pdf/2304.14399.pdf"
-    arxiv: "https://arxiv.org/abs/2304.14399"
-
-- key: michael-etal-2022-what
-  venue: "arXiv preprint"
+- key: michael-etal-2023-what
+  venue: "ACL 2023"
   links:
     website: "https://nlpsurvey.net"
     pdf: "https://arxiv.org/pdf/2208.12852.pdf"
@@ -30,6 +22,14 @@
       url: "https://www.youtube.com/watch?v=ZoOnP6H1A_o"
     - name: "NYU CDS Blog"
       url: "https://nyudatascience.medium.com/understanding-the-results-of-the-nlp-community-metasurvey-interview-with-cds-research-scientist-d06944bc9d54"
+
+- key: liu-etal-2023-afraid
+  venue: "arXiv preprint"
+  links:
+    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
+    code: "https://github.com/alisawuffles/ambient"
+    pdf: "https://arxiv.org/pdf/2304.14399.pdf"
+    arxiv: "https://arxiv.org/abs/2304.14399"
 
 - key: li-michael-2022-overconfidence
   cofirst: 2

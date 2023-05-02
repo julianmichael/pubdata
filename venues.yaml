@@ -1,6 +1,10 @@
 - name: "arXiv preprint"
   type: preprint
 
+- name: "ACL 2023"
+  url: "https://2023.aclweb.org"
+  type: conference
+
 - name: "EMNLP 2022"
   url: "https://2022.emnlp.org"
   proceedings: "https://aclanthology.org/volumes/2022.emnlp-main/"
