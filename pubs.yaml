@@ -1,10 +1,20 @@
+- key: turpin-etal-2023-language
+  venue: "arXiv preprint"
+  links:
+    s2: "https://www.semanticscholar.org/paper/7dc928f41e15f65f1267bd87b0fcfcc7e715cb56"
+    pdf: "https://arxiv.org/pdf/2305.04388.pdf"
+    arxiv: "https://arxiv.org/abs/2305.04388"
+    code: "https://github.com/milesaturpin/cot-unfaithfulness"
+
 - key: michael-etal-2023-what
   venue: "ACL 2023"
   links:
     website: "https://nlpsurvey.net"
-    pdf: "https://arxiv.org/pdf/2208.12852.pdf"
+    s2: "https://www.semanticscholar.org/paper/e57aeb158a38ccf33d2f0f5a8f63f1209497e329"
+    pdf: "https://nlpsurvey.net/nlp-metasurvey-results.pdf"
     arxiv: "https://arxiv.org/abs/2208.12852"
     talk: "https://www.youtube.com/watch?v=Kj11oBBl9rk"
+    twitter: "https://twitter.com/_julianmichael_/status/1563203787191627778"
   media:
     - name: "AI Index (Ch. 8)"
       url: "https://aiindex.stanford.edu/report/"
@@ -26,10 +36,12 @@
 - key: liu-etal-2023-afraid
   venue: "arXiv preprint"
   links:
-    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
-    code: "https://github.com/alisawuffles/ambient"
+    s2: "https://www.semanticscholar.org/paper/a1805da79e35a793b01416b71ec1ca28cf91fb15"
     pdf: "https://arxiv.org/pdf/2304.14399.pdf"
     arxiv: "https://arxiv.org/abs/2304.14399"
+    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
+    code: "https://github.com/alisawuffles/ambient"
+    twitter: "https://twitter.com/alisawuffles/status/1651956800579842051"
 
 - key: li-michael-2022-overconfidence
   cofirst: 2
@@ -44,15 +56,19 @@
 - key: shi-etal-2022-nearest
   venue: EMNLP 2022
   links:
+    s2: "https://www.semanticscholar.org/paper/c8d4c5907ddce4f42b20662324a2ccff7bf9d6c9"
     pdf: "https://arxiv.org/pdf/2205.13792.pdf"
     arxiv: "https://arxiv.org/abs/2205.13792"
+    twitter: "https://twitter.com/WeijiaShi2/status/1529393669513412608"
 
 - key: pyatkin-etal-2021-asking
   venue: EMNLP 2021
   links:
     s2: "https://api.semanticscholar.org/CorpusID:237485410"
     pdf: "https://aclanthology.org/2021.emnlp-main.108.pdf"
+    arxiv: "https://arxiv.org/abs/2109.04832"
     code: "https://github.com/ValentinaPy/RoleQGeneration"
+    twitter: "https://twitter.com/valentina__py/status/1445730264634703889"
 
 - key: michael-zettlemoyer-2021-inducing
   venue: Findings of ACL 2021
@@ -66,6 +82,7 @@
   links:
     s2: "https://www.semanticscholar.org/paper/Prompting-Contrastive-Explanations-for-Commonsense-Paranjape-Michael/7747ecbc26b1688e6cad1a6ce83914efa2a3c04c"
     pdf: "https://aclanthology.org/2021.findings-acl.366.pdf"
+    arxiv: "https://arxiv.org/abs/2106.06823"
     code: "https://github.com/bhargaviparanjape/RAG-X"
 
 - key: klein-etal-2020-qanom
@@ -76,6 +93,7 @@
     code: "https://github.com/kleinay/QANom"
     poster: "http://qasrl.org/pubs/qanom-coling2020-poster.pdf"
     data: "https://github.com/kleinay/QANom"
+    twitter: "https://twitter.com/kleinay2/status/1334043803129434113"
 
 - key: pyatkin-etal-2020-qadiscourse
   venue: EMNLP 2020
@@ -90,6 +108,8 @@
   links:
     s2: "https://www.semanticscholar.org/paper/f33a648a69d1136bfc0f42b95e3466126eafb4ce"
     pdf: "https://www.aclweb.org/anthology/2020.emnlp-main.552.pdf"
+    arxiv: "https://arxiv.org/abs/2004.14513"
+    twitter: "https://twitter.com/_julianmichael_/status/1256021691131547650"
   alts:
     - description: ArXiv preprint (Apr 2020)
       url: "https://arxiv.org/abs/2004.14513"
@@ -101,6 +121,7 @@
   links:
     s2: "https://www.semanticscholar.org/paper/00c61e601a9312e06a0be7cd15696c0f34658fa3"
     pdf: "https://www.aclweb.org/anthology/2020.acl-main.626.pdf"
+    arxiv: "https://arxiv.org/abs/1911.03243"
     code: "https://github.com/plroit/qasrl-gs"
     data: "https://github.com/plroit/qasrl-gs"
   alts:
@@ -115,8 +136,10 @@
     website: "https://nlp.cs.washington.edu/ambigqa/"
     s2: "https://www.semanticscholar.org/paper/32151ca81fa9e943ebe3028c5c2a7e76434da1bc"
     pdf: "https://www.aclweb.org/anthology/2020.emnlp-main.466.pdf"
+    arxiv: "https://arxiv.org/abs/2004.10645"
     code: "https://github.com/shmsw25/AmbigQA"
     data: "https://nlp.cs.washington.edu/ambigqa/"
+    twitter: "https://twitter.com/sewon__min/status/1254776794319736839"
   alts:
     - description: ArXiv preprint (Apr 2020)
       url: "https://arxiv.org/abs/2004.10645"
@@ -129,7 +152,7 @@
     website: "https://super.gluebenchmark.com"
     s2: "https://www.semanticscholar.org/paper/d9f6ada77448664b71128bb19df15765336974a6"
     pdf: "https://papers.nips.cc/paper/8589-superglue-a-stickier-benchmark-for-general-purpose-language-understanding-systems.pdf"
-    # pdf: "https://arxiv.org/pdf/1905.00537.pdf"
+    arxiv: "https://arxiv.org/pdf/1905.00537.pdf"
     code: "https://jiant.info/"
 
 - key: wang-etal-2019-glue
@@ -138,6 +161,7 @@
     website: "https://gluebenchmark.com"
     s2: "https://www.semanticscholar.org/paper/93b8da28d006415866bf48f9a6e06b5242129195"
     pdf: "https://openreview.net/pdf?id=rJ4km2R5t7"
+    arxiv: "https://arxiv.org/abs/1804.07461"
     code: "https://github.com/nyu-mll/GLUE-baselines"
   alts:
     - description: ArXiv version (Apr 2018)
@@ -152,14 +176,17 @@
     website: "http://qasrl.org"
     s2: "https://www.semanticscholar.org/paper/Large-Scale-QA-SRL-Parsing-FitzGerald-Michael/7b199756fee917accf5e9223c3282239ee2fbc89"
     pdf: "https://arxiv.org/pdf/1805.05377.pdf"
+    arxiv: "https://arxiv.org/abs/1805.05377"
     code: "https://github.com/nafitzgerald/nrl-qasrl"
     data: "https://github.com/uwnlp/qasrl-bank"
+    twitter: "https://twitter.com/nfitz/status/996905913393995776"
 
 - key: michael-etal-2018-crowdsourcing
   venue: NAACL 2018
   links:
     s2: "https://www.semanticscholar.org/paper/Crowdsourcing-Question-Answer-Meaning-Michael-Stanovsky/a1eca4322717e642a28c1d3d20798129a7018d4b"
     pdf: "http://aclweb.org/anthology/N18-2089"
+    arxiv: "https://arxiv.org/abs/1711.05885"
     poster: "http://julianmichael.org/papers/michael18qamr-poster.pdf"
     code: "https://github.com/uwnlp/qamr/"
     data: "https://github.com/uwnlp/qamr/tree/master/data"
@@ -176,7 +203,7 @@
     pdf: "http://aclweb.org/anthology/N18-1081"
     poster: "https://gabrielstanovsky.github.io/assets/papers/naacl18long/poster.pdf"
     code: "https://github.com/gabrielStanovsky/supervised-oie"
-    
+
 - key: stanovsky-dagan-2016-creating
   venue: EMNLP 2016
   links:
