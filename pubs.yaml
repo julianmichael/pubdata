@@ -5,6 +5,7 @@
     pdf: "https://arxiv.org/pdf/2305.04388.pdf"
     arxiv: "https://arxiv.org/abs/2305.04388"
     code: "https://github.com/milesaturpin/cot-unfaithfulness"
+    twitter: "https://twitter.com/milesaturpin/status/1656010877269602304"
 
 - key: michael-etal-2023-what
   venue: "ACL 2023"
