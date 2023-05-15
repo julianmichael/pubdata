@@ -19,6 +19,8 @@
   media:
     - name: "AI Index (Ch. 8)"
       url: "https://aiindex.stanford.edu/report/"
+    - name: "Data Skeptic Podcast"
+      url: "https://dataskeptic.com/blog/episodes/2023/the-nlp-community-metasurvey"
     - name: "IFLScience"
       url: "https://www.iflscience.com/a-third-of-ai-researchers-think-ai-could-cause-catastrophic-outcomes-on-par-with-nuclear-war-this-century-65430"
     - name: "Tages-Anzeiger"
