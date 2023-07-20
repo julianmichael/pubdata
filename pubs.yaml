@@ -1,3 +1,8 @@
+- key: michael-2023-data
+  venue: "PhD Thesis, University of Washington, 2023"
+  links:
+    pdf: "https://julianmichael.org/assets/papers/michael2023data.pdf"
+
 - key: turpin-etal-2023-language
   venue: "arXiv preprint"
   links:
@@ -191,7 +196,7 @@
     s2: "https://www.semanticscholar.org/paper/Crowdsourcing-Question-Answer-Meaning-Michael-Stanovsky/a1eca4322717e642a28c1d3d20798129a7018d4b"
     pdf: "http://aclweb.org/anthology/N18-2089"
     arxiv: "https://arxiv.org/abs/1711.05885"
-    poster: "http://julianmichael.org/papers/michael18qamr-poster.pdf"
+    poster: "http://julianmichael.org/assets/papers/michael18qamr-poster.pdf"
     code: "https://github.com/uwnlp/qamr/"
     data: "https://github.com/uwnlp/qamr/tree/master/data"
   alts:
