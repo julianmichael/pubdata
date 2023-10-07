@@ -4,6 +4,16 @@
 - name: "arXiv preprint"
   type: preprint
 
+- name: "NeurIPS 2023"
+  url: "https://nips.cc/Conferences/2023"
+  proceedings: "https://proceedings.neurips.cc/paper/2023"
+  type: conference
+
+- name: "EMNLP 2023"
+  url: "https://2023.emnlp.org"
+  proceedings: "https://aclanthology.org/volumes/2023.emnlp-main/"
+  type: conference
+
 - name: "ACL 2023"
   url: "https://2023.aclweb.org"
   type: conference

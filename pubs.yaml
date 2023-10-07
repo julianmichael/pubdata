@@ -1,10 +1,5 @@
-- key: michael-2023-data
-  venue: "PhD Thesis, University of Washington, 2023"
-  links:
-    pdf: "https://julianmichael.org/assets/papers/michael2023data.pdf"
-
 - key: turpin-etal-2023-language
-  venue: "arXiv preprint"
+  venue: "NeurIPS 2023"
   links:
     s2: "https://www.semanticscholar.org/paper/7dc928f41e15f65f1267bd87b0fcfcc7e715cb56"
     pdf: "https://arxiv.org/pdf/2305.04388.pdf"
@@ -12,6 +7,22 @@
     code: "https://github.com/milesaturpin/cot-unfaithfulness"
     lw: "https://www.lesswrong.com/posts/6eKL9wDqeiELbKPDj/unfaithful-explanations-in-chain-of-thought-prompting"
     twitter: "https://twitter.com/milesaturpin/status/1656010877269602304"
+
+
+- key: liu-etal-2023-afraid
+  venue: "EMNLP 2023"
+  links:
+    s2: "https://www.semanticscholar.org/paper/a1805da79e35a793b01416b71ec1ca28cf91fb15"
+    pdf: "https://arxiv.org/pdf/2304.14399.pdf"
+    arxiv: "https://arxiv.org/abs/2304.14399"
+    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
+    code: "https://github.com/alisawuffles/ambient"
+    twitter: "https://twitter.com/alisawuffles/status/1651956800579842051"
+
+- key: michael-2023-data
+  venue: "PhD Thesis, University of Washington, 2023"
+  links:
+    pdf: "https://julianmichael.org/assets/papers/michael2023data.pdf"
 
 - key: michael-etal-2023-what
   venue: "ACL 2023"
@@ -42,16 +53,6 @@
       url: "https://www.youtube.com/watch?v=ZoOnP6H1A_o"
     - name: "NYU CDS Blog"
       url: "https://nyudatascience.medium.com/understanding-the-results-of-the-nlp-community-metasurvey-interview-with-cds-research-scientist-d06944bc9d54"
-
-- key: liu-etal-2023-afraid
-  venue: "arXiv preprint"
-  links:
-    s2: "https://www.semanticscholar.org/paper/a1805da79e35a793b01416b71ec1ca28cf91fb15"
-    pdf: "https://arxiv.org/pdf/2304.14399.pdf"
-    arxiv: "https://arxiv.org/abs/2304.14399"
-    data: "https://github.com/alisawuffles/ambient/tree/main/AmbiEnt"
-    code: "https://github.com/alisawuffles/ambient"
-    twitter: "https://twitter.com/alisawuffles/status/1651956800579842051"
 
 - key: li-michael-2022-overconfidence
   cofirst: 2
