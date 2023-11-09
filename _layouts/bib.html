@@ -11,7 +11,16 @@
 {% endif %}
 <div id="{{ entry.key }}" class="pub pub-{{ venue_type }}">
 <!-- title -->
-{% if entry.url %}<a href="{{ entry.url }}" class="pubtitle venue-{{ venue_type }}">{{ entry.title }}</a>{% else %}<span class="pubtitle">{{ entry.title }}</span>{% endif %}
+{% if metadata.url %}
+  {% assign url = metadata.url %}
+{% else %}
+  {% assign url = entry.url %}
+{% endif %}
+{% if url %}
+  <a href="{{ url }}" class="pubtitle venue-{{ venue_type }}">{{ entry.title }}</a>
+{% else %}
+  <span class="pubtitle venue-{{ venue_type }}">{{ entry.title }}</span>
+{% endif %}
 <br />
 <!-- authors -->
 <span class="pubauthors">

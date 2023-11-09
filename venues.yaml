@@ -1,3 +1,7 @@
+- name: "The Big Picture Workshop"
+  url: "https://www.bigpictureworkshop.com"
+  type: workshop
+
 - name: "PhD Thesis, University of Washington, 2023"
   type: thesis
 
