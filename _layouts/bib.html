@@ -26,9 +26,10 @@
 <span class="pubauthors">
 {% for author in entry.author_array %}
   {% assign second_to_last = forloop.length | minus: 1 %}
+  {% assign pre_colast = forloop.length | minus: metadata.colast %}
   {% assign author_name = author.first | append: " " | append: author.last %}
   {% assign cur_author = site.data.pubdata.authors | where: "name", author_name | first %}
-  {% if cur_author and cur_author.url %}<a class="pubauthor" href="{{ cur_author.url }}">{{ cur_author.name }}</a>{% else %}<span class="pubauthor">{{ author_name }}</span>{% endif %}{% if metadata.cofirst and forloop.index <= metadata.cofirst  %}*{% endif %}{% if forloop.last %}{% elsif forloop.index == second_to_last %} and {% else %},{% endif %}
+  {% if cur_author and cur_author.url %}<a class="pubauthor" href="{{ cur_author.url }}">{{ cur_author.name }}</a>{% else %}<span class="pubauthor">{{ author_name }}</span>{% endif %}{% if forloop.last %}{% elsif forloop.index == second_to_last %}{% else %},{% endif %}{% if metadata.cofirst and forloop.index <= metadata.cofirst  %}*{% endif %}{% if metadata.colast and forloop.index > pre_colast %}†{% endif %}{% if forloop.index == second_to_last %} and {% endif %}
 {% endfor %}
 </span>
 <br />

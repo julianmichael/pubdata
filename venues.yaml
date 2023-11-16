@@ -1,3 +1,7 @@
+- name: "SoLaR 2023"
+  url: "https://solar-neurips.github.io"
+  type: workshop
+
 - name: "The Big Picture Workshop"
   url: "https://www.bigpictureworkshop.com"
   type: workshop
