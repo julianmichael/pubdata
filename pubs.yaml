@@ -1,3 +1,12 @@
+- key: rein-etal-2023-gpqa
+  colast: 2
+  venue: "arXiv preprint"
+  links:
+    pdf: "https://arxiv.org/pdf/2311.12022.pdf"
+    arxiv: "https://arxiv.org/abs/2311.12022"
+    data: "https://github.com/idavidrein/gpqa/"
+    twitter: "https://twitter.com/idavidrein/status/1727033002234909060"
+
 - key: michael-etal-2023-debate
   cofirst: 3
   venue: "arXiv preprint"
