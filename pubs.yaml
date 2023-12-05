@@ -31,6 +31,9 @@
 
 - key: michael-2023-case
   venue: "The Big Picture Workshop"
+  links:
+    arxiv: "http://arxiv.org/abs/2312.00349"
+    pdf: "http://arxiv.org/pdf/2312.00349.pdf"
 
 - key: liu-etal-2023-afraid
   venue: "EMNLP 2023"
