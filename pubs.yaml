@@ -17,7 +17,11 @@
     twitter: "https://twitter.com/_julianmichael_/status/1724919113028403671"
 
 - key: pfau-etal-2023-eliciting
+  cofirst: 3
   venue: "SoLaR 2023"
+  links:
+    openreview: "https://openreview.net/forum?id=m6xyTie61H"
+    pdf: "https://openreview.net/pdf?id=m6xyTie61H"
 
 - key: turpin-etal-2023-language
   venue: "NeurIPS 2023"
@@ -33,8 +37,8 @@
   venue: "The Big Picture Workshop"
   accolades: Best Paper
   links:
-    arxiv: "http://arxiv.org/abs/2312.00349"
     pdf: "http://arxiv.org/pdf/2312.00349.pdf"
+    arxiv: "http://arxiv.org/abs/2312.00349"
     slides: "https://julianmichael.org/assets/slides/bigpicture-2023.key"
     twitter: "https://twitter.com/_julianmichael_/status/1732260482583818685"
 
