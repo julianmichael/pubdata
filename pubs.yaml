@@ -1,3 +1,12 @@
+- key: chua-etal-2024-bias
+  cofirst: 2
+  venue: "arXiv preprint"
+  links:
+    pdf: "https://arxiv.org/pdf/2403.05518.pdf"
+    arxiv: "https://arxiv.org/abs/2403.05518"
+    code: "https://github.com/raybears/cot-transparency"
+    twitter: "https://twitter.com/milesaturpin/status/1767327882978660513"
+
 - key: rein-etal-2023-gpqa
   colast: 2
   venue: "arXiv preprint"
@@ -11,9 +20,11 @@
   cofirst: 3
   venue: "arXiv preprint"
   links:
+    website: "https://julianmichael.github.io/debate"
     pdf: "https://arxiv.org/pdf/2311.08702.pdf"
     arxiv: "https://arxiv.org/abs/2311.08702"
-    code+data: "https://github.com/julianmichael/debate/tree/2023-nyu-experiments"
+    code: "https://github.com/julianmichael/debate/tree/2023-nyu-experiments"
+    data: "https://julianmichael.github.io/debate/tree/2023-nyu-experiments/pub"
     twitter: "https://twitter.com/_julianmichael_/status/1724919113028403671"
 
 - key: pfau-etal-2023-eliciting
