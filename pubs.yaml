@@ -15,6 +15,11 @@
     arxiv: "https://arxiv.org/abs/2311.12022"
     data: "https://github.com/idavidrein/gpqa/"
     twitter: "https://twitter.com/idavidrein/status/1727033002234909060"
+  media:
+    - name: "AI Index (2024; Ch. 2)"
+      url: "https://aiindex.stanford.edu/report/"
+    - name: "Nature"
+      url: "https://www.nature.com/articles/d41586-024-01087-4"
 
 - key: michael-etal-2023-debate
   cofirst: 3
@@ -81,8 +86,8 @@
     talk: "https://www.youtube.com/watch?v=Kj11oBBl9rk"
     twitter: "https://twitter.com/_julianmichael_/status/1563203787191627778"
   media:
-    - name: "AI Index (Ch. 8)"
-      url: "https://aiindex.stanford.edu/report/"
+    - name: "AI Index (2022; Ch. 8)"
+      url: "https://aiindex.stanford.edu/ai-index-report-2022/"
     - name: "Data Skeptic Podcast"
       url: "https://dataskeptic.com/blog/episodes/2023/the-nlp-community-metasurvey"
     - name: "IFLScience"
