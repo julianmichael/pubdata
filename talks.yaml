@@ -1,12 +1,22 @@
-- speaker: Julian Michael
-  title: "From Models of Language to Models of Truth"
+- speakers:
+    - Julian Michael
+  title: "AI Alignment via Language Understanding: Defining, Measuring, and Making Progress"
+  url: https://www.youtube.com/watch?v=Vm-ySuxCpaI
+  slides: xxx
   talks:
-    - date: 2023-01-28
+    - date: 2024-03-12
+      url: https://www.youtube.com/watch?v=Vm-ySuxCpaI
       location:
-        name: Philosophy, AI, and Society Workshop
-        url: "https://mintresearch.org/ourwork/pais-workshop-stanford"
+        name: AI Objectives Institute
+        url: https://ai.objectives.institute
+    - date: 2024-04-10
+      location:
+        name: NYU CDS Lunch Seminar
+        url: https://cds.nyu.edu/data-science-lunch-seminar-series/
 
-- speaker: Julian Michael
+
+- speakers:
+    - Julian Michael
   title: "What Do NLP Researchers Believe? Results of the NLP Community Metasurvey"
   url: "https://nlpsurvey.net"
   talks:
@@ -23,3 +33,31 @@
       location:
         name: AI2
         url: "https://allenai.org"
+
+
+- speakers:
+    - Julian Michael
+  title: "From Models of Language to Models of Truth"
+  talks:
+    - date: 2023-01-28
+      location:
+        name: Philosophy, AI, and Society Workshop
+        url: "https://mintresearch.org/ourwork/pais-workshop-stanford"
+
+
+- speakers:
+    - Julian Michael
+  title: "Philosophical Foundations of AI Ethics"
+  talks:
+    - 2022-
+
+- speakers:
+   - Julian Michael
+  title: Representing Meaning with Question-Answer Pairs
+  url: https://www.youtube.com/watch?v=VlCQEKURRzI&t=64s
+  slides: xxx
+  talks:
+    - date: 2019-11-07
+      location:
+        name: UW Allen School Colloquium
+        url: https://www.cs.washington.edu

@@ -53,7 +53,11 @@
 {% endfor %}
 <!-- bibtex -->
 {% assign bib_id = entry.key | append: "-bib" %}
+{% if entry.bibtex contains '"' %}
+  <a class="bib publink publink-bib" id="{{ bib_id }}" href="#" onclick="showCopied(&quot;#{{ bib_id }}&quot;); return false;" data-clipboard-text='{{ entry.bibtex }}'>bib</a>
+{% else %}
     <a class="bib publink publink-bib" id="{{ bib_id }}" href="#" onclick="showCopied(&quot;#{{ bib_id }}&quot;); return false;" data-clipboard-text="{{ entry.bibtex }}">bib</a>
+{% endif %}
 </span>
 {% if metadata.media %}
 <br />

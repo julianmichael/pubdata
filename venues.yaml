@@ -1,3 +1,7 @@
+- name: "NAACL 2024"
+  url: "https://2024.naacl.org"
+  type: conference
+
 - name: "SoLaR 2023"
   url: "https://solar-neurips.github.io"
   type: workshop

@@ -1,3 +1,11 @@
+- key: jin-etal-2024-analyzing
+  cofirst: 3
+  venue: "NAACL 2024"
+  links:
+    pdf: "https://arxiv.org/pdf/2405.01502"
+    arxiv: "https://arxiv.org/abs/2405.01502"
+    code: "https://github.com/causalNLP/amr_llm"
+
 - key: chua-etal-2024-bias
   cofirst: 2
   venue: "arXiv preprint"
@@ -48,6 +56,10 @@
     code: "https://github.com/milesaturpin/cot-unfaithfulness"
     lw: "https://www.lesswrong.com/posts/6eKL9wDqeiELbKPDj/unfaithful-explanations-in-chain-of-thought-prompting"
     twitter: "https://twitter.com/milesaturpin/status/1656010877269602304"
+  media:
+    - name: "Neue Zürcher Zeitung"
+      url: "https://www.nzz.ch/technologie/die-unglaublichsten-tipps-wie-man-von-ki-die-besten-antworten-bekommt-ld.1814256"
+
 
 - key: michael-2023-case
   venue: "The Big Picture Workshop"
