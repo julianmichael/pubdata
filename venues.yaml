@@ -16,6 +16,9 @@
 - name: "arXiv preprint"
   type: preprint
 
+- name: "preprint"
+  type: preprint
+
 - name: "NeurIPS 2023"
   url: "https://nips.cc/Conferences/2023"
   proceedings: "https://proceedings.neurips.cc/paper/2023"

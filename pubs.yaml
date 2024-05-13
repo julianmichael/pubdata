@@ -1,3 +1,8 @@
+- key: curtis-etal-2024-research
+  venue: "preprint"
+  links:
+    pdf: "https://static1.squarespace.com/static/6086fb0cbf366f6273c435e5/t/66218dc6d387d41957835396/1713475015219/Research_Agenda_for_Sociotechnical_Approaches_to_AI_Safety.pdf"
+
 - key: jin-etal-2024-analyzing
   cofirst: 3
   venue: "NAACL 2024"
