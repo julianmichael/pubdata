@@ -122,6 +122,12 @@
     - name: "NYU CDS Blog"
       url: "https://nyudatascience.medium.com/understanding-the-results-of-the-nlp-community-metasurvey-interview-with-cds-research-scientist-d06944bc9d54"
 
+- key: pesahov-etal-2023-qa
+  venue: DMR 2023
+  links:
+    s2: "https://www.semanticscholar.org/paper/e1ce7c68f66a6dfb9e4780b8bf3f9ecb67adebd8"
+    pdf: "https://aclanthology.org/2023.dmr-1.8.pdf"
+
 - key: li-michael-2022-overconfidence
   cofirst: 2
   venue: DADC 2022
@@ -139,6 +145,21 @@
     pdf: "https://arxiv.org/pdf/2205.13792.pdf"
     arxiv: "https://arxiv.org/abs/2205.13792"
     twitter: "https://twitter.com/WeijiaShi2/status/1529393669513412608"
+
+- key: klein-etal-2022-qasem
+  venue: EMNLP 2022
+  links:
+    s2: "https://www.semanticscholar.org/paper/ae654627c4beed0afb94c9276701fd7e33907b9a"
+    pdf: "https://aclanthology.org/2022.emnlp-main.528.pdf"
+    arxiv: "https://arxiv.org/abs/2205.11413"
+    code: "https://github.com/kleinay/QASem"
+
+- key: brook-weiss-etal-2021-qa
+  venue: EMNLP 2021
+  links:
+    s2: "https://api.semanticscholar.org/CorpusID:237940785"
+    pdf: "https://aclanthology.org/2021.emnlp-main.778.pdf"
+    code: "https://github.com/danielabweiss/qa-align"
 
 - key: pyatkin-etal-2021-asking
   venue: EMNLP 2021

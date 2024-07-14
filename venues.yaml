@@ -1,3 +1,9 @@
+- name: "arXiv preprint"
+  type: preprint
+
+- name: "preprint"
+  type: preprint
+
 - name: "NAACL 2024"
   url: "https://2024.naacl.org"
   type: conference
@@ -10,14 +16,12 @@
   url: "https://www.bigpictureworkshop.com"
   type: workshop
 
+- name: "DMR 2023"
+  url: "https://dmr2023.github.io/"
+  type: workshop
+
 - name: "PhD Thesis, University of Washington, 2023"
   type: thesis
-
-- name: "arXiv preprint"
-  type: preprint
-
-- name: "preprint"
-  type: preprint
 
 - name: "NeurIPS 2023"
   url: "https://nips.cc/Conferences/2023"
@@ -92,9 +96,19 @@
   url: "https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming"
   type: journal
 
+- name: "ACL 2016"
+  url: "https://mirror.aclweb.org/acl2016/"
+  proceedings: "https://aclanthology.org/events/acl-2016/"
+  type: conference
+
 - name: "EMNLP 2016"
   url: "https://www.aclweb.org/mirror/emnlp2016/"
   proceedings: "https://aclanthology.org/events/emnlp-2016"
+  type: conference
+
+- name: "EMNLP 2015"
+  url: "https://www.cs.cmu.edu/~ark/EMNLP-2015/"
+  proceedings: "https://aclanthology.org/events/emnlp-2015"
   type: conference
 
 - name: "Commonsense 2015"
