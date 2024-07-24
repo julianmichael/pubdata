@@ -1,0 +1,78 @@
+{% assign talk = include.talk %}
+{% assign large = include.large | default: false %}
+{% assign full = include.full | default: false %}
+{% if large %}
+  {% assign embed_width = 240 %}
+  {% assign embed_height = 135 %}
+{% else %}
+  {% assign embed_width = 192 %}
+  {% assign embed_height = 108 %}
+{% endif %}
+
+
+<div id="{{ talk.key }}" class="pub block" style="display: flex; flex-direction: row;">
+{% if talk.url contains "youtube" %}
+<div style="margin-right: 1rem; break-after: always;">
+  <iframe width="{{ embed_width }}" height="{{ embed_height }}" src="{{ talk.url | replace: "watch", "embed" }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{% endif %}
+<div>
+<!-- title -->
+{% if talk.url %}
+  <a href="{{ talk.url }}" class="pubtitle venue-conference">{{ talk.title }}</a>
+{% else %}
+  <span class="pubtitle venue-conference">{{ talk.title }}</span>
+{% endif %}
+<br />
+<!-- description -->
+<span class="description">{{ talk.description }}</span>
+<br />
+<!-- links -->
+<span class="publinks">
+{% for link in talk.links %}
+    <a class="publink publink-{{ link[0] }}" href="{{ link[1] }}">{{ link[0] }}</a>
+{% endfor %}
+</span>
+<!-- instances -->
+{% if large %}
+{% if full %}
+<ul>
+  {% for instance in talk.talks %}
+    <li>
+      <span>{{ instance.date | date: "%b %d, %Y" }}: </span>
+      {% if instance.location.url %}
+        <a href="{{ instance.location.url }}">{{ instance.location.name }}</a>
+      {% else %}
+        <span>{{ instance.location.name }}</span>
+      {% endif %}
+      <!-- instance links -->
+      <span>
+      {% for link in instance.links %}
+          <a href="{{ link[1] }}">[{{ link[0] }}]</a>
+      {% endfor %}
+      </span>
+    </li>
+  {% endfor %}
+</ul>
+{% else %}
+  {% for instance in talk.talks %}
+    {% if instance.location.byline %}
+      <div>
+        <span>Delivered {{ instance.date | date: "%b %d, %Y" }}</span>
+        {% if instance.location.name %}
+          {{ instance.location.byline }}
+          {% if instance.location.url %}
+            <a href="{{ instance.location.url }}">{{ instance.location.name }}</a>.
+          {% else %}
+            <span>{{ instance.location.name }}</span>.
+          {% endif %}
+        {% else %}
+          {{ instance.location.byline }}.
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endif %}
+</div>
+</div>

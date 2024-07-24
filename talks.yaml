@@ -1,24 +1,76 @@
 - speakers:
     - Julian Michael
+  key: understanding-alignment-aoi-2024
   title: "AI Alignment via Language Understanding: Defining, Measuring, and Making Progress"
-  url: https://www.youtube.com/watch?v=Vm-ySuxCpaI
-  slides: xxx
+  description: Thoughts on the relationship between language understanding, AI Alignment, and scalable oversight, where I introduce "Human–Machine Coordination Games" as a paradigm for evaluating alignment, and discuss some of our debate experiments in this context.
+  url: https://www.youtube.com/watch?v=Vm-ySuxCpaI&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=6
+  papers:
+    - michael-etal-2023-debate
+  links:
+    video: https://www.youtube.com/watch?v=Vm-ySuxCpaI&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=6
+    slides: https://julianmichael.org/assets/slides/alignment-via-understanding-aoi2024.key
   talks:
     - date: 2024-03-12
-      url: https://www.youtube.com/watch?v=Vm-ySuxCpaI
       location:
+        byline: at the
         name: AI Objectives Institute
         url: https://ai.objectives.institute
+      links:
+        video: https://www.youtube.com/watch?v=Vm-ySuxCpaI&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=6
     - date: 2024-04-10
       location:
         name: NYU CDS Lunch Seminar
         url: https://cds.nyu.edu/data-science-lunch-seminar-series/
 
+- speakers:
+    - Julian Michael
+  key: michael-2023-case
+  title: "The Case for Scalable, Data-Driven Theory: A Paradigm for Scientific Progress in NLP"
+  description: This is the best entry point to my thesis work, laying out my proposal for how to use machine learning to do better science, specifically in the case of syntax and semantics.
+  url: https://www.youtube.com/watch?v=NVMLtyJqWsA&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=5
+  papers:
+    - michael-2023-case
+  links:
+    video: https://www.youtube.com/watch?v=NVMLtyJqWsA&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=5
+    slides: https://julianmichael.org/assets/slides/bigpicture-2023.key
+    paper: https://julianmichael.org/publications#michael-2023-case
+  talks:
+    - date: 2023-12-07
+      location:
+        byline: as the best paper talk at
+        name: The Big Picture Workshop
+        url: https://www.bigpictureworkshop.com
+
 
 - speakers:
     - Julian Michael
-  title: "What Do NLP Researchers Believe? Results of the NLP Community Metasurvey"
-  url: "https://nlpsurvey.net"
+  title: "An Introduction to NLP, for Scientists"
+  key: intro-for-scientists-nyu-2023
+  description: A summary of the contemporary state of NLP and a (novel at the time, as far as I'm aware) proposal for how to use language models for scientific data analysis. Includes spicy takes on the relationship between deep learning and psychiatric drugs and more.
+  url: https://www.youtube.com/watch?v=q5Cikp3IlZs&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=4
+  links:
+    video: https://www.youtube.com/watch?v=q5Cikp3IlZs&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=4
+    slides: https://docs.google.com/presentation/d/1SBd7vbsQVAHmNLsJRSxgt7QEtCwLsgz61HAbVTp61e0/edit
+    colab: https://colab.research.google.com/drive/1ybJXob8C-SHd1RMtflCJKiEnlAJ_z_Oi
+  talks:
+    - date: 2023-04-05
+      location:
+        byline: as a guest lecture for Madalina Vlasceanu's graduate regression class at NYU
+
+
+- speakers:
+    - Julian Michael
+  key: nlpsurvey-2023
+  title: What Do NLP Researchers Believe? Results of the NLP Community Metasurvey
+  description: Talk and informal discussion of the results of the NLP Community Metasurvey.
+  papers:
+    - michael-etal-2023-nlp
+  url: "https://www.youtube.com/watch?v=Kj11oBBl9rk&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=3"
+  links:
+    video: "https://www.youtube.com/watch?v=Kj11oBBl9rk&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=3"
+    slides: "https://julianmichael.org/assets/slides/metasurvey.key"
+    website: "https://nlpsurvey.net"
+    paper: "https://julianmichael.org/publications#michael-etal-2023-nlp"
   talks:
     - date: 2023-02-15
       location:
@@ -26,38 +78,75 @@
         url: "https://nlp.cis.upenn.edu/clunch.html"
     - date: 2023-01-25
       location:
-        name: Stanford
+        name: Stanford CS
         url: "https://cs.stanford.edu"
     - date: 2023-01-12
-      url: "https://www.youtube.com/watch?v=Kj11oBBl9rk"
       location:
+        byline: at
         name: AI2
         url: "https://allenai.org"
+      links:
+        video: "https://www.youtube.com/watch?v=Kj11oBBl9rk&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=3"
 
 
 - speakers:
     - Julian Michael
-  title: "From Models of Language to Models of Truth"
+  key: lms-truth-pais-2023
+  title: From Models of Language to Models of Truth
+  description: An early discussion of my thoughts on language understanding with machines and the relationship between AI alignment and philosophical progress.
+  links:
+    slides: https://julianmichael.org/assets/slides/pais-2023.key
   talks:
     - date: 2023-01-28
       location:
+        byline: at the
         name: Philosophy, AI, and Society Workshop
-        url: "https://mintresearch.org/ourwork/pais-workshop-stanford"
+        url: https://mintresearch.org/ourwork/pais-workshop-stanford
 
 
 - speakers:
     - Julian Michael
-  title: "Philosophical Foundations of AI Ethics"
+  key: philosophical-foundations-uw-2022
+  title: Philosophical Foundations of AI Ethics
+  description: An introduction to foundational issues in AI ethics from a philosophical perspective. I try to connect contemporary views and disagreements to their philosophical roots in consequentialism, deontology, social contract theory, and critical theory.
+  url: https://www.youtube.com/watch?v=5VLd54BVGD4&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=2
+  links:
+    video: https://www.youtube.com/watch?v=5VLd54BVGD4&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=2
+    slides: https://docs.google.com/presentation/d/1z4QhDkcFRSZgxpMCaGH4QL1z_l4gkWJmEV5pBL7Wtw4/edit
   talks:
-    - 2022-
+    - date: 2024-04-03
+      location:
+        name: Ethics in Artificial Intelligence @ UW, Spring 2024
+        url: https://courses.cs.washington.edu/courses/cse582/24sp/
+    - date: 2023-04-07
+      location:
+        name: Ethics in Artificial Intelligence @ UW, Spring 2023
+        url: https://courses.cs.washington.edu/courses/cse582/23sp/
+    - date: 2022-01-25
+      location:
+        byline: for Yulia Tsvetkov's UW class on
+        name: Computational Ethics in NLP
+        url: https://courses.cs.washington.edu/courses/cse599d1/22wi/
+      links:
+        video: https://www.youtube.com/watch?v=5VLd54BVGD4&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=2
+
 
 - speakers:
    - Julian Michael
+  key: meaning-qa-uw-2019
   title: Representing Meaning with Question-Answer Pairs
-  url: https://www.youtube.com/watch?v=VlCQEKURRzI&t=64s
-  slides: xxx
+  description: A 10-minute, accessible colloquium talk summarizing some of my early PhD work on crowdsourcing representations of language structure and meaning. My experience with the projects described in this talk led me to invest further in QA-SRL.
+  url: https://www.youtube.com/watch?v=VlCQEKURRzI&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=1&t=64s
+  links:
+    video: https://www.youtube.com/watch?v=VlCQEKURRzI&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=1&t=64s
+    slides: https://julianmichael.org/assets/slides/colloq.key
+  papers:
+    - he-etal-2016-human
+    - michael-etal-2018-crowdsourcing
+    - fitzgerald-etal-2018-large
   talks:
     - date: 2019-11-07
       location:
+        byline: at the
         name: UW Allen School Colloquium
         url: https://www.cs.washington.edu

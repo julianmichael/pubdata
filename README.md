@@ -9,6 +9,7 @@ Data on publications (authors, links, etc.) for listing on the web in Jekyll sit
   * `assets/pubdata` -> `_data/pubdata/assets`
   * `_sass/pubdata` -> `_data/pubdata/_sass`
   * `_layouts/bib.html` -> `_data/pubdata/_layouts/bib.html`
+  * `_includes/talk.html` -> `_data/pubdata/_includes/talk.html`
 * Add the following to your `_config.yml`:
   ```yaml
   scholar:
@@ -18,6 +19,7 @@ Data on publications (authors, links, etc.) for listing on the web in Jekyll sit
   ```
 * Add the following under `excludes:` in your `_config.yml`:
   ```yaml
+  - _data/pubdata/_includes
   - _data/pubdata/_layouts
   - _data/pubdata/_sass
   - _data/pubdata/assets

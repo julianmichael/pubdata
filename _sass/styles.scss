@@ -1,5 +1,27 @@
 ol.bibliography {
     list-style-type: none;
+    margin-left: 0;
+}
+
+$block-bg-color: #f0f0f0;
+$block-border-color: #e8e8e8;
+
+.block {
+    background-color: $block-bg-color;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $block-border-color;
+    padding: 1rem;
+
+    margin-bottom: 1rem;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.pubs-section {
+    margin-left: 30px;
 }
 
 .pub {
@@ -232,7 +254,7 @@ a.publink {
     background-color: #292b2c
 }
 
-.publink-pdf, .publink-poster {
+.publink-pdf, .publink-poster, .publink-paper {
     background-color: #5cb85c
 }
 
@@ -244,7 +266,7 @@ a.publink {
     background-color: #f0ad4e
 }
 
-.publink-website, .publink-reviews {
+.publink-website, .publink-reviews, .publink-video {
     background-color: #d9534f
 }
 
