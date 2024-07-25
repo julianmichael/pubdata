@@ -4,6 +4,10 @@
 - name: "preprint"
   type: preprint
 
+- name: "COLM 2024"
+  url: "https://colmweb.org"
+  type: conference
+
 - name: "NAACL 2024"
   url: "https://2024.naacl.org"
   type: conference
