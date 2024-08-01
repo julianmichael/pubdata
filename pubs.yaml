@@ -19,6 +19,9 @@
     arxiv: "https://arxiv.org/abs/2403.05518"
     code: "https://github.com/raybears/cot-transparency"
     twitter: "https://twitter.com/milesaturpin/status/1767327882978660513"
+  media:
+    - name: "NYU CDS Blog"
+      url: "https://nyudatascience.medium.com/new-research-finds-method-to-reduce-ai-language-models-biased-reasoning-44e62ed77a9b"
 
 - key: rein-etal-2023-gpqa
   colast: 2
