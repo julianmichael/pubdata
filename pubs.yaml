@@ -48,7 +48,7 @@
     pdf: "https://arxiv.org/pdf/2311.08702.pdf"
     arxiv: "https://arxiv.org/abs/2311.08702"
     code: "https://github.com/julianmichael/debate/tree/2023-nyu-experiments"
-    data: "https://julianmichael.github.io/debate/tree/2023-nyu-experiments/pub"
+    data: "https://github.com/julianmichael/debate/tree/2023-nyu-experiments/pub"
     twitter: "https://twitter.com/_julianmichael_/status/1724919113028403671"
 
 - key: pfau-etal-2023-eliciting
