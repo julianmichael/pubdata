@@ -10,9 +10,9 @@
 {% endif %}
 
 
-<div id="{{ talk.key }}" class="pub block" style="display: flex; flex-direction: row;">
+<div id="{{ talk.key }}" class="pub block side-embed-container">
 {% if talk.url contains "youtube" %}
-<div style="margin-right: 1rem; break-after: always;">
+<div style="margin-right: 1rem; break-after: always; align-self: center;">
   <iframe width="{{ embed_width }}" height="{{ embed_height }}" src="{{ talk.url | replace: "watch", "embed" }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 {% endif %}

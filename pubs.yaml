@@ -23,11 +23,13 @@
     - name: "NYU CDS Blog"
       url: "https://nyudatascience.medium.com/new-research-finds-method-to-reduce-ai-language-models-biased-reasoning-44e62ed77a9b"
 
-- key: rein-etal-2023-gpqa
+- key: rein-etal-2024-gpqa
   colast: 2
   venue: "COLM 2024"
+  accolades: Spotlight
   links:
-    pdf: "https://arxiv.org/pdf/2311.12022.pdf"
+    pdf: "https://openreview.net/pdf?id=Ti67584b98"
+    openreview: "https://openreview.net/forum?id=Ti67584b98"
     arxiv: "https://arxiv.org/abs/2311.12022"
     data: "https://github.com/idavidrein/gpqa/"
     twitter: "https://twitter.com/idavidrein/status/1727033002234909060"
@@ -36,6 +38,7 @@
       url: "https://aiindex.stanford.edu/report/"
     - name: "Nature"
       url: "https://www.nature.com/articles/d41586-024-01087-4"
+
 
 - key: michael-etal-2023-debate
   cofirst: 3

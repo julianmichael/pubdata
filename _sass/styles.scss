@@ -20,6 +20,23 @@ $block-border-color: #e8e8e8;
     }
 }
 
+.side-embed-container {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .side-embed-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .side-embed-container {
+    flex-direction: row;
+  }
+}
+
+
 .pubs-section {
     margin-left: 30px;
 }
