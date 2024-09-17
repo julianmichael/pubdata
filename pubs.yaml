@@ -29,7 +29,7 @@
   accolades: Spotlight
   links:
     pdf: "https://openreview.net/pdf?id=Ti67584b98"
-    openreview: "https://openreview.net/forum?id=Ti67584b98"
+    reviews: "https://openreview.net/forum?id=Ti67584b98"
     arxiv: "https://arxiv.org/abs/2311.12022"
     data: "https://github.com/idavidrein/gpqa/"
     twitter: "https://twitter.com/idavidrein/status/1727033002234909060"
@@ -54,8 +54,9 @@
 - key: pfau-etal-2023-eliciting
   cofirst: 3
   venue: "SoLaR 2023"
+  accolades: "Spotlight"
   links:
-    openreview: "https://openreview.net/forum?id=m6xyTie61H"
+    reviews: "https://openreview.net/forum?id=m6xyTie61H"
     pdf: "https://openreview.net/pdf?id=m6xyTie61H"
 
 - key: turpin-etal-2023-language
@@ -269,6 +270,7 @@
   links:
     website: "https://gluebenchmark.com"
     s2: "https://www.semanticscholar.org/paper/93b8da28d006415866bf48f9a6e06b5242129195"
+    reviews: "https://openreview.net/forum?id=rJ4km2R5t7"
     pdf: "https://openreview.net/pdf?id=rJ4km2R5t7"
     arxiv: "https://arxiv.org/abs/1804.07461"
     code: "https://github.com/nyu-mll/GLUE-baselines"
