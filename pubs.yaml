@@ -1,3 +1,11 @@
+- key: arnesen-etal-2024-training
+  venue: "preprint"
+  links:
+    s2: "https://www.semanticscholar.org/paper/1acc966b193be4eca4849d132ce3208a80d1c6fe"
+    pdf: "https://arxiv.org/pdf/2409.16636"
+    arxiv: "https://arxiv.org/abs/2409.16636"
+    code: "https://github.com/samuelarnesen/nyu-debate-modeling"
+
 - key: curtis-etal-2024-research
   venue: "preprint"
   links:
@@ -29,10 +37,10 @@
   accolades: Spotlight
   links:
     pdf: "https://openreview.net/pdf?id=Ti67584b98"
-    reviews: "https://openreview.net/forum?id=Ti67584b98"
     arxiv: "https://arxiv.org/abs/2311.12022"
     data: "https://github.com/idavidrein/gpqa/"
     twitter: "https://twitter.com/idavidrein/status/1727033002234909060"
+    reviews: "https://openreview.net/forum?id=Ti67584b98"
   media:
     - name: "AI Index (2024; Ch. 2)"
       url: "https://aiindex.stanford.edu/report/"
