@@ -1,3 +1,12 @@
+- key: peng-etal-2024-rapid
+  venue: "preprint"
+  links:
+    s2: "https://www.semanticscholar.org/paper/488b1604edad32ff905cac94713648735196c73e"
+    pdf: "https://arxiv.org/pdf/2411.07494"
+    arxiv: "https://arxiv.org/abs/2411.07494"
+    code: "https://github.com/rapidresponsebench/rapidresponsebench"
+    openreview: "https://openreview.net/forum?id=V892sBHUbN"
+
 - key: arnesen-etal-2024-training
   venue: "preprint"
   links:
@@ -5,6 +14,9 @@
     pdf: "https://arxiv.org/pdf/2409.16636"
     arxiv: "https://arxiv.org/abs/2409.16636"
     code: "https://github.com/samuelarnesen/nyu-debate-modeling"
+  media:
+    - name: "Quanta Magazine"
+      url: "https://www.quantamagazine.org/debate-may-help-ai-models-converge-on-truth-20241108/"
 
 - key: curtis-etal-2024-research
   venue: "preprint"
