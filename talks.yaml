@@ -1,5 +1,30 @@
 - speakers:
     - Julian Michael
+  key: empirical-progress-on-debate-aw-2024
+  title: "Empirical Progress on Debate: Where We Are, What's Next, and What's Missing"
+  description: A brief talk laying out the state of affairs with AI debate for scalable oversight, plus early thoughts on intent alignment and what remains to be done beyond debate.
+  url: https://www.youtube.com/watch?v=QzumRZ9NjRw&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=6
+  papers:
+    - michael-etal-2023-debate
+    - arnesen-etal-2024-training
+  links:
+    video: https://www.youtube.com/watch?v=QzumRZ9NjRw&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=6
+    slides: https://julianmichael.org/assets/slides/empirical-progress-on-debate-aw2024.key
+    slides (long): https://julianmichael.org/assets/slides/empirical-progress-on-debate-ut2024.key
+  talks:
+    - date: 2024-10-25
+      location:
+        byline: at the
+        name: Alignment Workshop
+        url: https://www.alignment-workshop.com/bay-area-2024
+    - date: 2024-11-11
+      location:
+        byline: in longer form (unrecorded) at
+        name: UT Austin
+        url: https://sites.google.com/utexas.edu/sxsw/about
+
+- speakers:
+    - Julian Michael
   key: understanding-alignment-aoi-2024
   title: "AI Alignment via Language Understanding: Defining, Measuring, and Making Progress"
   description: Thoughts on the relationship between language understanding, AI Alignment, and scalable oversight, where I introduce "Human–Machine Coordination Games" as a paradigm for evaluating alignment, and discuss some of our debate experiments in this context.
