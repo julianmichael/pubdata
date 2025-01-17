@@ -14,13 +14,11 @@
   talks:
     - date: 2024-10-25
       location:
-        byline: at the
-        name: Alignment Workshop
+        name: The Alignment Workshop
         url: https://www.alignment-workshop.com/bay-area-2024
     - date: 2024-11-11
       location:
-        byline: in longer form (unrecorded) at
-        name: UT Austin
+        name: South by Semantics at UT Austin
         url: https://sites.google.com/utexas.edu/sxsw/about
 
 - speakers:
@@ -37,7 +35,6 @@
   talks:
     - date: 2024-03-12
       location:
-        byline: at the
         name: AI Objectives Institute
         url: https://ai.objectives.institute
       links:
@@ -62,9 +59,37 @@
   talks:
     - date: 2023-12-07
       location:
-        byline: as the best paper talk at
         name: The Big Picture Workshop
         url: https://www.bigpictureworkshop.com
+
+
+- speakers:
+    - Julian Michael
+  title: "Debate Helps Supervise Unreliable Experts"
+  key: michael-etal-2023-debate
+  description: An overview of our human experiments on debate at NYU.
+  papers:
+    - michael-etal-2023-debate
+  url: https://docs.google.com/presentation/d/1fjGCvM1yjbiPcHyWtFBF3xPa4XUgzpVZLS9feIaJ6D4/edit
+  links:
+    slides: https://docs.google.com/presentation/d/1fjGCvM1yjbiPcHyWtFBF3xPa4XUgzpVZLS9feIaJ6D4/edit
+  talks:
+    - date: 2023-12-04
+      location:
+        name: OpenAI Superalignment team
+        url: https://www.axios.com/2024/05/17/openai-superalignment-risk-ilya-sutskever
+    - date: 2024-01-11
+      links:
+        slides: https://docs.google.com/presentation/d/1fjGCvM1yjbiPcHyWtFBF3xPa4XUgzpVZLS9feIaJ6D4/edit
+      location:
+        name: Google DeepMind
+        url: https://blog.google/technology/ai/april-ai-update/
+    - date: 2024-02-01
+      links:
+        slides: https://docs.google.com/presentation/d/1otm-mW0HL0hEunKMSHLCoIwKhV-VaRAlEDfUs6ekNmg/edit
+      location:
+        name: AI2
+        url: https://allenai.org
 
 
 - speakers:
@@ -80,7 +105,23 @@
   talks:
     - date: 2023-04-05
       location:
-        byline: as a guest lecture for Madalina Vlasceanu's graduate regression class at NYU
+        name: Graduate Regression @ NYU
+        url: https://mvlasceanu.github.io/Regression/intro.html
+
+
+- speakers:
+    - Julian Michael
+  key: lms-truth-pais-2023
+  title: From Models of Language to Models of Truth
+  description: An early discussion of my thoughts on language understanding with machines and the relationship between AI alignment and philosophical progress.
+  url: https://julianmichael.org/assets/slides/pais-2023.key
+  links:
+    slides: https://julianmichael.org/assets/slides/pais-2023.key
+  talks:
+    - date: 2023-01-28
+      location:
+        name: Philosophy, AI, and Society Workshop
+        url: https://mintresearch.org/ourwork/pais-workshop-stanford
 
 
 - speakers:
@@ -107,26 +148,10 @@
         url: "https://cs.stanford.edu"
     - date: 2023-01-12
       location:
-        byline: at
         name: AI2
         url: "https://allenai.org"
       links:
         video: "https://www.youtube.com/watch?v=Kj11oBBl9rk&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=3"
-
-
-- speakers:
-    - Julian Michael
-  key: lms-truth-pais-2023
-  title: From Models of Language to Models of Truth
-  description: An early discussion of my thoughts on language understanding with machines and the relationship between AI alignment and philosophical progress.
-  links:
-    slides: https://julianmichael.org/assets/slides/pais-2023.key
-  talks:
-    - date: 2023-01-28
-      location:
-        byline: at the
-        name: Philosophy, AI, and Society Workshop
-        url: https://mintresearch.org/ourwork/pais-workshop-stanford
 
 
 - speakers:
@@ -141,16 +166,15 @@
   talks:
     - date: 2024-04-03
       location:
-        name: Ethics in Artificial Intelligence @ UW, Spring 2024
+        name: Ethics in Artificial Intelligence @ UW
         url: https://courses.cs.washington.edu/courses/cse582/24sp/
     - date: 2023-04-07
       location:
-        name: Ethics in Artificial Intelligence @ UW, Spring 2023
+        name: Ethics in Artificial Intelligence @ UW
         url: https://courses.cs.washington.edu/courses/cse582/23sp/
     - date: 2022-01-25
       location:
-        byline: for Yulia Tsvetkov's UW class on
-        name: Computational Ethics in NLP
+        name: Computational Ethics in NLP @ UW
         url: https://courses.cs.washington.edu/courses/cse599d1/22wi/
       links:
         video: https://www.youtube.com/watch?v=5VLd54BVGD4&list=PLkh1LQLNrbLwdV2zvzjh4g7dTAlT213Ny&index=2
@@ -172,6 +196,5 @@
   talks:
     - date: 2019-11-07
       location:
-        byline: at the
         name: UW Allen School Colloquium
         url: https://www.cs.washington.edu

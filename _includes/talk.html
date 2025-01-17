@@ -34,7 +34,6 @@
 {% endfor %}
 </span>
 <!-- instances -->
-{% if large %}
 {% if full %}
 <ul>
   {% for instance in talk.talks %}
@@ -56,23 +55,18 @@
 </ul>
 {% else %}
   {% for instance in talk.talks %}
-    {% if instance.location.byline %}
       <div>
-        <span>Delivered {{ instance.date | date: "%b %d, %Y" }}</span>
+        <span class="post-meta">{{ instance.date | date: "%b %-d, %Y" }} •
         {% if instance.location.name %}
-          {{ instance.location.byline }}
           {% if instance.location.url %}
-            <a href="{{ instance.location.url }}">{{ instance.location.name }}</a>.
+            <a href="{{ instance.location.url }}">{{ instance.location.name }}</a>
           {% else %}
-            <span>{{ instance.location.name }}</span>.
+            <span>{{ instance.location.name }}</span>
           {% endif %}
-        {% else %}
-          {{ instance.location.byline }}.
         {% endif %}
+        </span>
       </div>
-    {% endif %}
   {% endfor %}
-{% endif %}
 {% endif %}
 </div>
 </div>
