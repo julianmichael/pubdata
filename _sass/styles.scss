@@ -1,3 +1,4 @@
+@use "sass:color";
 ol.bibliography {
     list-style-type: none;
     margin-left: 0;
@@ -69,17 +70,17 @@ $block-border-color: #e8e8e8;
 }
 
 $venue-preprint-primary-color: #991717;
-$venue-preprint-secondary-color: darken($venue-preprint-primary-color, 15%);
+$venue-preprint-secondary-color: color.adjust($venue-preprint-primary-color, $lightness: -15%);
 $venue-workshop-primary-color: #b06000;
-$venue-workshop-secondary-color: darken($venue-workshop-primary-color, 15%);
+$venue-workshop-secondary-color: color.adjust($venue-workshop-primary-color, $lightness: -15%);
 $venue-conference-primary-color: $link-base-color;
-$venue-conference-secondary-color: darken($venue-conference-primary-color, 15%);
+$venue-conference-secondary-color: color.adjust($venue-conference-primary-color, $lightness: -15%);
 $venue-findings-primary-color: #2727a9;
-$venue-findings-secondary-color: darken($venue-findings-primary-color, 15%);
+$venue-findings-secondary-color: color.adjust($venue-findings-primary-color, $lightness: -15%);
 $venue-journal-primary-color: #076907;
-$venue-journal-secondary-color: darken($venue-journal-primary-color, 15%);
+$venue-journal-secondary-color: color.adjust($venue-journal-primary-color, $lightness: -15%);
 $venue-thesis-primary-color: #888888;
-$venue-thesis-secondary-color: darken($venue-preprint-primary-color, 15%);
+$venue-thesis-secondary-color: color.adjust($venue-preprint-primary-color, $lightness: -15%);
 
 $venue-unspecified-color: magenta;
 
