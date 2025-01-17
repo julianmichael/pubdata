@@ -1,3 +1,14 @@
+- key: greenblatt-etal-2024-alignment
+  venue: "preprint"
+  links:
+    s2: "https://www.semanticscholar.org/paper/Alignment-faking-in-large-language-models-Greenblatt-Denison/eba762de9b2120f778b6ccd6c26d3ba00b6f73b5"
+    pdf: "https://arxiv.org/pdf/2412.14093"
+    arxiv: "https://arxiv.org/abs/2412.14093"
+    website: "https://www.anthropic.com/research/alignment-faking"
+    code: "https://github.com/redwoodresearch/alignment_faking_public"
+    video: "https://www.youtube.com/watch?v=9eXV64O2Xp8"
+    memo: "https://assets.anthropic.com/m/52eab1f8cf3f04a6/original/Alignment-Faking-Policy-Memo.pdf"
+
 - key: peng-etal-2024-rapid
   venue: "preprint"
   links:

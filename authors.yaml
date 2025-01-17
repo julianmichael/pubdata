@@ -6,11 +6,11 @@
   editor: true
 
 - name: Luheng He
-  url: http://homes.cs.washington.edu/~luheng
+  url: https://homes.cs.washington.edu/~luheng
   headshot: /assets/pubdata/images/luheng-headshot.jpg
 
 - name: Nicholas FitzGerald
-  url: http://nfitz.net
+  url: https://nfitz.net
   headshot: /assets/pubdata/images/nicholas-headshot.jpg
 
 - name: Gabriel Stanovsky
@@ -19,7 +19,7 @@
   nickname: Gabi
 
 - name: Ido Dagan
-  url: http://u.cs.biu.ac.il/~dagan/
+  url: https://u.cs.biu.ac.il/~dagan/
   headshot: /assets/pubdata/images/ido-headshot.jpg
 
 - name: Luke Zettlemoyer
@@ -283,3 +283,53 @@
 
 - name: Mrinank Sharma
   url: https://www.mrinanksharma.net
+
+- name: Ryan Greenblatt
+  url: https://www.alignmentforum.org/users/ryan_greenblatt
+
+- name: Carson Denison
+  url: https://scholar.google.com/citations?user=sN1AjtcAAAAJ
+
+- name: Benjamin Wright
+
+- name: Fabien Roger
+  url: https://scholar.google.com/citations?user=La75jqEAAAAJ&hl=en
+
+- name: Monte MacDiarmid
+
+- name: Sam Marks
+  url: https://x.com/saprmarks
+
+- name: Johannes Treutlein
+  url: https://johannestreutlein.com
+
+- name: Tim Belonax
+  url: http://www.timbelonax.com
+
+- name: Jack Chen
+  url: https://www.linkedin.com/in/jack-chen-11508445
+
+- name: David Duvenaud
+  url: https://www.cs.toronto.edu/~duvenaud/
+
+- name: Akbir Khan
+  url: https://akbir.dev
+
+- name: Sören Mindermann
+  url: https://www.soren-mindermann.com
+
+- name: Linda Petrini
+  url: https://lindapetrini.com
+
+- name: Jonathan Uesato
+  url: https://scholar.google.com/citations?user=MfAOIhYAAAAJ
+
+- name: Jared Kaplan
+  url: https://scholar.google.com/citations?user=KNr3vb4AAAAJ
+
+- name: Buck Shlegeris
+  url: https://scholar.google.com/citations?user=oyDxKw0AAAAJ&hl=en
+
+- name: Evan Hubinger
+  url: https://scholar.google.com/citations?user=LRivg1cAAAAJ
+
