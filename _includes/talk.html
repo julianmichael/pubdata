@@ -1,6 +1,7 @@
 {% assign talk = include.talk %}
 {% assign large = include.large | default: false %}
 {% assign full = include.full | default: false %}
+{% assign bare = include.bare | default: false | bool %}
 {% if large %}
   {% assign embed_width = 240 %}
   {% assign embed_height = 135 %}
@@ -9,9 +10,14 @@
   {% assign embed_height = 108 %}
 {% endif %}
 
+{% if bare == true %}
+  {% assign blockclass = "pub" %}
+{% else %}
+  {% assign blockclass = "pub block side-embed-container" %}
+{% endif %}
 
-<div id="{{ talk.key }}" class="pub block side-embed-container">
-{% if talk.url contains "youtube" %}
+<div id="{{ talk.key }}" class="{{ blockclass }}">
+{% if bare != true and talk.url contains "youtube" %}
 <div style="margin-right: 1rem; break-after: always; align-self: center;">
   <iframe width="{{ embed_width }}" height="{{ embed_height }}" src="{{ talk.url | replace: "watch", "embed" }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
@@ -56,7 +62,7 @@
 {% else %}
   {% for instance in talk.talks %}
       <div>
-        <span class="post-meta">{{ instance.date | date: "%b %-d, %Y" }} •
+        <span class="talk-meta">{{ instance.date | date: "%b %-d, %Y" }} •
         {% if instance.location.name %}
           {% if instance.location.url %}
             <a href="{{ instance.location.url }}">{{ instance.location.name }}</a>
