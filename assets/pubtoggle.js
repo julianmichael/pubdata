@@ -4,6 +4,7 @@ $(document).ready(function() {
     "findings": true,
     "journal": true,
     "workshop": true,
+    "techreport": true,
     "thesis": true,
     "preprint": true
   };

@@ -84,6 +84,8 @@ $venue-journal-primary-color: #076907;
 $venue-journal-secondary-color: color.adjust($venue-journal-primary-color, $lightness: -15%);
 $venue-thesis-primary-color: #888888;
 $venue-thesis-secondary-color: color.adjust($venue-preprint-primary-color, $lightness: -15%);
+$venue-techreport-primary-color: #900090;
+$venue-techreport-secondary-color: color.adjust($venue-techreport-primary-color, $lightness: -15%);
 
 $venue-unspecified-color: magenta;
 
@@ -127,6 +129,12 @@ $venue-unspecified-color: magenta;
   color: $venue-thesis-primary-color !important;
   &:visited {
     color: $venue-thesis-primary-color !important;
+  }
+}
+.venue-techreport {
+  color: $venue-techreport-primary-color !important;
+  &:visited {
+    color: $venue-techreport-primary-color !important;
   }
 }
 
@@ -188,6 +196,16 @@ $venue-unspecified-color: magenta;
   }
 }
 .venue-thesis-toggle-off {
+  text-decoration: line-through;
+}
+.venue-techreport-toggle {
+  color: $venue-techreport-primary-color !important;
+  &:hover {
+    text-decoration: line-through;
+    color: $venue-techreport-secondary-color !important;
+  }
+}
+.venue-techreport-toggle-off {
   text-decoration: line-through;
 }
 

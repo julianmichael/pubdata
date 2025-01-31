@@ -4,6 +4,10 @@
 - name: "preprint"
   type: preprint
 
+- name: "UK DSIT/AISI Report"
+  url: "https://www.gov.uk/government/publications/international-ai-safety-report-2025"
+  type: techreport
+
 - name: "COLM 2024"
   url: "https://colmweb.org"
   type: conference
