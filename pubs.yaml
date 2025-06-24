@@ -1,3 +1,23 @@
+- key: sheshadri-etal-2025-language
+  venue: "preprint"
+  links:
+    pdf: https://arxiv.org/pdf/2506.18032
+    arxiv: https://arxiv.org/abs/2506.18032
+
+- key: knight-etal-2025-fortress
+  venue: "preprint"
+  links:
+    s2: https://www.semanticscholar.org/paper/d8ca99817f27e735cdafb7dd90938485fe5f5c91
+    pdf: https://arxiv.org/pdf/2506.14922
+    arxiv: https://arxiv.org/abs/2506.14922
+
+- key: wang-etal-2025-redteaming
+  venue: "preprint"
+  links:
+    s2: https://www.semanticscholar.org/paper/5215d4fa72cff5cbdd6f28fa70f2d10ca319d79e
+    pdf: https://arxiv.org/pdf/2506.05376
+    arxiv: https://arxiv.org/abs/2506.05376
+
 - key: bengio-etal-2025-international
   venue: "UK DSIT/AISI Report"
   links:
