@@ -11,6 +11,13 @@
     pdf: https://arxiv.org/pdf/2506.14922
     arxiv: https://arxiv.org/abs/2506.14922
 
+- key: rahman-etal-2025-debate
+  venue: "MAS 2025"
+  links:
+    s2: https://www.semanticscholar.org/paper/dcc232e0ec78020d8832e16670901457f191d97d
+    pdf: https://arxiv.org/pdf/2506.02175
+    arxiv: https://arxiv.org/abs/2506.02175
+
 - key: wang-etal-2025-redteaming
   venue: "preprint"
   links:

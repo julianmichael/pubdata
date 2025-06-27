@@ -4,6 +4,10 @@
 - name: "preprint"
   type: preprint
 
+- name: "MAS 2025"
+  url: "https://mas-2025.github.io/MAS-2025/"
+  type: workshop
+
 - name: "UK DSIT/AISI Report"
   url: "https://www.gov.uk/government/publications/international-ai-safety-report-2025"
   type: techreport
