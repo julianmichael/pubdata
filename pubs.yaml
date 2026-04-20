@@ -1,5 +1,64 @@
-- key: sheshadri-etal-2025-language
+- key: zhang-etal-2026-llm
   venue: "preprint"
+  links:
+    pdf: https://arxiv.org/pdf/2602.23329
+    arxiv: https://arxiv.org/abs/2602.23329
+
+- key: wei-etal-2025-best
+  venue: "preprint"
+  links:
+    pdf: https://arxiv.org/pdf/2510.27629
+    arxiv: https://arxiv.org/abs/2510.27629
+
+- key: mazeika-etal-2025-remote
+  venue: "preprint"
+  links:
+    website: "https://remotelabor.ai"
+    pdf: https://arxiv.org/pdf/2510.26787
+    arxiv: https://arxiv.org/abs/2510.26787
+
+- key: donoway-etal-2025-quantifying
+  venue: "NeurIPS 2025"
+  links:
+    pdf: "https://openreview.net/pdf?id=Dkgx2pS4Ww"
+    openreview: "https://openreview.net/forum?id=Dkgx2pS4Ww"
+    code: "https://github.com/edonoway/quantifying-elicitation-neurips25"
+
+- key: han-etal-2025-search
+  venue: "preprint"
+  links:
+    pdf: https://arxiv.org/pdf/2508.13180
+    arxiv: https://arxiv.org/abs/2508.13180
+
+- key: gema-etal-2025-inverse
+  venue: "TMLR"
+  venue_note: " (12/2025; Featured Certification)"
+  links:
+    pdf: https://arxiv.org/pdf/2507.14417
+    arxiv: https://arxiv.org/abs/2507.14417
+    openreview: "https://openreview.net/forum?id=jqVjZX8YCG"
+
+- key: korbak-etal-2025-chain
+  venue: "preprint"
+  links:
+    pdf: https://arxiv.org/pdf/2507.11473
+    arxiv: https://arxiv.org/abs/2507.11473
+
+- key: turpin-etal-2025-teaching
+  venue: "ICML 2025 R2-FM Workshop"
+  links:
+    pdf: https://arxiv.org/pdf/2506.22777
+    arxiv: https://arxiv.org/abs/2506.22777
+
+- key: bengio-etal-2025-singapore
+  venue: "SCAI 2025"
+  links:
+    pdf: https://arxiv.org/pdf/2506.20702
+    arxiv: https://arxiv.org/abs/2506.20702
+
+- key: sheshadri-etal-2025-language
+  venue: "NeurIPS 2025"
+  accolades: Spotlight
   links:
     pdf: https://arxiv.org/pdf/2506.18032
     arxiv: https://arxiv.org/abs/2506.18032
@@ -45,7 +104,7 @@
     memo: "https://assets.anthropic.com/m/52eab1f8cf3f04a6/original/Alignment-Faking-Policy-Memo.pdf"
 
 - key: peng-etal-2024-rapid
-  venue: "preprint"
+  venue: "ICLR 2025"
   links:
     s2: "https://www.semanticscholar.org/paper/488b1604edad32ff905cac94713648735196c73e"
     pdf: "https://arxiv.org/pdf/2411.07494"

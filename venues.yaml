@@ -4,6 +4,26 @@
 - name: "preprint"
   type: preprint
 
+- name: "NeurIPS 2025"
+  url: "https://neurips.cc/Conferences/2025"
+  type: conference
+
+- name: "ICLR 2025"
+  url: "https://iclr.cc/Conferences/2025"
+  type: conference
+
+- name: "TMLR"
+  url: "https://jmlr.org/tmlr/"
+  type: journal
+
+- name: "ICML 2025 R2-FM Workshop"
+  url: "https://r2-fm.github.io/"
+  type: workshop
+
+- name: "SCAI 2025"
+  url: "https://www.scai.gov.sg/2025/scai2025-report"
+  type: techreport
+
 - name: "MAS 2025"
   url: "https://mas-2025.github.io/MAS-2025/"
   type: workshop
